@@ -2,7 +2,7 @@
 
 | Name          | NIM        |
 |---------------|------------|
-| Bryant Gouw   | 1234567890 |
+| Anthony Bryant Gouw   | 18222033 |
 
 ---
 ## 🚀 Brief Introduction
