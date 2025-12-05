@@ -3,7 +3,32 @@
 % ==========================================
 \chapter{DESAIN KONSEP SOLUSI}
 \label{chap:desain-konsep-solusi}
-Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
-beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
-Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
-penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
+Pada bab sebelumnya, peneliti telah melakukan analisis terhadap ketiga alternatif solusi dan menetapkan bahwa Solusi 1 merupakan opsi terbaik. Solusi ini berfokus pada upaya simplifikasi menu, fitur, serta alur pemakaian aplikasi AYO TOKO. Berdasarkan Gambar IV.1, model konseptual aplikasi AYO TOKO saat ini menunjukkan bahwa ketiga aplikasi utama, yaitu AYO TOKO, MY AYO, dan AYO Mitra, berada dalam satu ekosistem yang saling terintegrasi. Integrasi ini terlihat dari keterhubungan data antar ketiga aplikasi tersebut. Namun demikian, penelitian ini dibataskan pada ruang lingkup aplikasi AYO TOKO. Apabila dijabarkan lebih lanjut, aplikasi AYO TOKO terdiri atas beberapa sub-sistem utama, yaitu manajemen produk ritel, pemesanan stok produk, aksesibilitas pusat bantuan, penyelesaian misi, penyediaan layanan digital, dan peningkatan program kerjasama. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/existing.png}
+	\caption{Sistem Informasi Aplikasi AYO TOKO (Sebelum)}
+	\label{gambar:sistemsebelum}
+\end{figure}
+
+Dengan ditetapkannya Solusi 1 sebagai alternatif terbaik, sistem informasi aplikasi AYO TOKO saat ini akan mengalami penyederhanaan melalui pengurangan beberapa sub-sistem yang dianggap kurang esensial. Penyederhanaan ini menyisakan tiga kapabilitas sub-sistem utama yaitu manajemen produk ritel, pemesanan stok produk, dan aksesibilitas pusat bantuan, sebagaimana terlihat pada Gambar IV.2. Namun, karena peneliti tidak memperoleh akses terhadap fitur maupun desain dari sub-sistem manajemen produk ritel (hanya dapat diakses oleh pemilik toko SRC), dengan demikian rancangan solusi difokuskan pada dua sub-sistem yang dapat dievaluasi langsung, yaitu pemesanan stok produk dan aksesibilitas pusat bantuan. 
+\begin{enumerate}
+\item   Pemesanan Stok Produk \\
+Pada saat pengguna pertama kali membuka aplikasi AYO TOKO, mereka disajikan dengan tampilan menu utama yang cukup kompleks, terdiri atas berbagai \textit{endpoint} seperti Belanja, Misi, Langganan, Pojok Bayar, Pojok Untung, Katalog SRC, dan Promosi. Dalam Solusi 1, penyederhanaan dilakukan dengan menampilkan hanya \textit{endpoint} yang dianggap paling esensial, misalnya Belanja dan Akses Bantuan, sehingga antarmuka lebih fokus dan mudah untuk dipahami. Selain itu, alur pada fitur Belanja juga dinilai masih dapat disederhanakan. Beberapa responden sempat menyampaikan bahwa mereka sering salah menekan tombol saat menggunakan fitur tersebut, bahkan sempet kebingungan saat hendak \textit{checkout} pesanan. Responden lainnya juga memberikan masukan bahwa ia akan lebih terbantu apabila proses pemesanan dilakukan layaknya konsep pengiriman pesan pada aplikasi WhatsApp. Misalnya dengan mengetikkan pesanan dalam bentuk paragraf, sehingga pesanan tersebut secara otomatis masuk ke dalam keranjang, tanpa perlu menekan tombol “+” pada setiap produk yang ingin dipesan. \\
+\item   Aksesibilitas Pusat Bantuan \\
+Saat ini, fitur akses bantuan ke Bude jarang digunakan oleh pemilik toko SRC karena \textit{response time} yang cenderung lama, yang merupakan masalah teknis di luar cakupan penelitian ini. Meskipun demikian, permasalahan pengguna tetap harus difasilitasi, terutama karena kebingungan dengan penggunaan aplikasi masih sering terjadi. Fakta ini diperkuat oleh pernyataan dari mayoritas responden bahwa mereka masih sering menyampaikan kendala aplikasi kepada \textit{salesman}. Oleh karena itu, fitur pusat bantuan tetap dipertahankan. Fitur ini dapat dikembangkan menjadi lebih baik melalui sistem pendukung yang mampu menjawab secara otomatis pertanyaan umum yang diajukan oleh responden. \\
+\end{enumerate}
+
+Terlepas dari kedua sub-sistem yang menjadi fokus utama dalam solusi ini, beberapa responden juga menyampaikan bahwa ukuran teks dan ikon pada aplikasi AYO TOKO dirasa terlalu kecil. Kondisi ini membuat navigasi terasa kurang nyaman bagi sebagian pengguna aplikasi. Oleh sebab itu, peneliti turut mempertimbangkan alternatif ukuran teks dan ikon yang lebih sesuai dengan kebutuhan pengguna aplikasi AYO TOKO. 
+
+Keputusan untuk memangkas beberapa sub-sistem tersebut diperkuat oleh temuan kualitatif dari hasil wawancara dengan 12 pemilik toko SRC. Beberapa responden menyampaikan bahwa fitur yang tersedia di aplikasi saat ini dirasa terlalu banyak dan kompleks, sementara kebutuhan utama mereka sebenarnya hanya sebatas ingin memesan produk kepada mitra. Banyak fitur yang disediakan tidak digunakan oleh sebagian besar responden, sehingga penyederhanaan dipandang sebagai langkah yang tepat untuk meningkatkan kemudahan dan kenyamanan penggunaan aplikasi.   
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/after.png}
+	\caption{Sistem Informasi Aplikasi AYO TOKO (Setelah)}
+	\label{gambar:sistemsetelah}
+\end{figure}

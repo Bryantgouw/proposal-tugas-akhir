@@ -1,0 +1,776 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{Berry2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bd769e832a01e79138429bf1d2607e7}{%
+           family={Berry},
+           familyi={B\bibinitperiod},
+           given={Ray\bibnamedelima Slater},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bd769e832a01e79138429bf1d2607e7}
+      \strng{fullhash}{8bd769e832a01e79138429bf1d2607e7}
+      \strng{bibnamehash}{8bd769e832a01e79138429bf1d2607e7}
+      \strng{authorbibnamehash}{8bd769e832a01e79138429bf1d2607e7}
+      \strng{authornamehash}{8bd769e832a01e79138429bf1d2607e7}
+      \strng{authorfullhash}{8bd769e832a01e79138429bf1d2607e7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User Testing: How Many User Testers Do You Need per Method? | Maze}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://maze.co/blog/user-testing-how-many-users/
+      \endverb
+      \verb{url}
+      \verb https://maze.co/blog/user-testing-how-many-users/
+      \endverb
+    \endentry
+    \entry{Budiu2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10cc0f01b454b286126441b86d488d41}{%
+           family={Budiu},
+           familyi={B\bibinitperiod},
+           given={Raluca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10cc0f01b454b286126441b86d488d41}
+      \strng{fullhash}{10cc0f01b454b286126441b86d488d41}
+      \strng{bibnamehash}{10cc0f01b454b286126441b86d488d41}
+      \strng{authorbibnamehash}{10cc0f01b454b286126441b86d488d41}
+      \strng{authornamehash}{10cc0f01b454b286126441b86d488d41}
+      \strng{authorfullhash}{10cc0f01b454b286126441b86d488d41}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why 5 Participants Are Okay in a Qualitative Study, but Not in a Quantitative One - NN/G}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/5-test-users-qual-quant/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/5-test-users-qual-quant/
+      \endverb
+    \endentry
+    \entry{CambridgeDictionaryND}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41864b46f32b778cc1f0dafbfdea47f}{%
+           family={{Cambridge Dictionary}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{fullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{bibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorbibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authornamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorfullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{INCLUSIVE | English meaning - Cambridge Dictionary}
+      \verb{urlraw}
+      \verb https://dictionary.cambridge.org/dictionary/english/inclusive
+      \endverb
+      \verb{url}
+      \verb https://dictionary.cambridge.org/dictionary/english/inclusive
+      \endverb
+    \endentry
+    \entry{Chou2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=33080882f3ad67507a520665f70d7f0e}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Jyh\bibnamedelima Rong},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=918cec685c1aa1953046d42057c8981b}{%
+           family={Hsiao},
+           familyi={H\bibinitperiod},
+           given={Shih\bibnamedelima Wen},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ad6fb9253d3926868662406e3816e6b}
+      \strng{fullhash}{4ad6fb9253d3926868662406e3816e6b}
+      \strng{bibnamehash}{4ad6fb9253d3926868662406e3816e6b}
+      \strng{authorbibnamehash}{4ad6fb9253d3926868662406e3816e6b}
+      \strng{authornamehash}{4ad6fb9253d3926868662406e3816e6b}
+      \strng{authorfullhash}{4ad6fb9253d3926868662406e3816e6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{"Usability" is considered to be inherent in human-computer interface because it expresses the relationship between end users and computer applications. In this paper, we conducted a study to examine the usability of human-computer interface for middle-aged learners in Taiwan. There are two phases contained in the study: (1) an elementary computer-training task, and (2) a usability analysis of human-computer interface. Making use of a questionnaire survey, correlation analysis, and the grey relational model, some user characteristics and learning behavior were derived. For example, regarding middle-aged learners, the usability of present mouse and monitor devices is preferable to that of the keyboard device and a Windows-based software interface. Educational level is the major factor influencing middle-aged learners' use of computer interfaces. To unemployed middle-aged learners, more males than females were found to exhibit the phenomenon of computerphobia. The younger age learners show lower anxiety and hold more positive attitudes toward computer learning than the older-aged ones. Besides, the higher education learners hold much more positive expectation toward computer learning while the lower education learners pay more attention to their learning capability and deficiency. © 2006 Elsevier Ltd. All rights reserved.}
+      \field{issn}{07475632}
+      \field{issue}{4}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{A usability study on human-computer interface for middle-aged learners}
+      \field{volume}{23}
+      \field{year}{2007}
+      \field{pages}{2040\bibrangedash 2063}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.chb.2006.02.011
+      \endverb
+      \keyw{Computer training,Human-computer interface,Learning,Usability,Use of computer}
+    \endentry
+    \entry{FigmaND}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a86fc3430821f57f16c0c8b000acf401}{%
+           family={{Figma}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{fullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{bibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorbibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Interaction Design? Everything You Should Know | Figma}
+      \verb{urlraw}
+      \verb https://www.figma.com/resource-library/interaction-design/
+      \endverb
+      \verb{url}
+      \verb https://www.figma.com/resource-library/interaction-design/
+      \endverb
+    \endentry
+    \entry{Ho2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6e75cc2bce651d352ad6dfa02a9178e1}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Hsin\bibnamedelima Hung},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=969c2f69b36903e754ed1e259ff6f1bd}{%
+           family={Tzeng},
+           familyi={T\bibinitperiod},
+           given={Sy\bibnamedelima Yi},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \strng{fullhash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \strng{bibnamehash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \strng{authorbibnamehash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \strng{authornamehash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \strng{authorfullhash}{e65ebcb96ebba286ccbe66b7550ae3e1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{As society ages and mobile technology develops, the percentage of middle-aged and older adults using a smart phone for mobile reading is increasing. However, existing mobile reading apps have not been designed with middle-aged and older users in mind. This study investigated 14 mobile reading apps targeting users in Taiwan and evaluated middle-aged and older adults’ needs for user interfaces. Usability interface comprises the aspects of font style, navigation, page turning, and text to speech, whereas ease-of-understanding interface comprises the aspects of infographics, category, and item information. This study designed a questionnaire and obtained 187 valid responses from middle-aged and older adults. The Kano model was used to analyze the participants’ needs. Research results indicated that font style was the only one-dimensional attribute, whereas the remaining interfaces were attractive attributes. The participants reported that the two design interfaces of font style list and adjustable line spacing button met their aging visual needs. This study also found that Line Today and Facebook were the most popular reading apps for middle-aged and older adults in Taiwan. Although the platforms’ interfaces did not completely meet the preferences of most middle-aged and older adults, using these interfaces provided a pleasant experience for them.}
+      \field{issn}{24519588}
+      \field{journaltitle}{Computers in Human Behavior Reports}
+      \field{title}{Using the Kano model to analyze the user interface needs of middle-aged and older adults in mobile reading}
+      \field{volume}{3}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1016/j.chbr.2021.100074
+      \endverb
+      \keyw{Kano model,Mobile reading,Population aging,User interface}
+    \endentry
+    \entry{Hurlock1953}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6aa239446091fcbb82430251d1b8e20}{%
+           family={Hurlock},
+           familyi={H\bibinitperiod},
+           given={Elizabeth\bibnamedelima B.},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6aa239446091fcbb82430251d1b8e20}
+      \strng{fullhash}{a6aa239446091fcbb82430251d1b8e20}
+      \strng{bibnamehash}{a6aa239446091fcbb82430251d1b8e20}
+      \strng{authorbibnamehash}{a6aa239446091fcbb82430251d1b8e20}
+      \strng{authornamehash}{a6aa239446091fcbb82430251d1b8e20}
+      \strng{authorfullhash}{a6aa239446091fcbb82430251d1b8e20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developmental Psychology Hurlock | PDF | Adolescence | Puberty}
+      \field{year}{1953}
+      \verb{urlraw}
+      \verb https://www.scribd.com/document/740897676/Developmental-Psychology-Hurlock
+      \endverb
+      \verb{url}
+      \verb https://www.scribd.com/document/740897676/Developmental-Psychology-Hurlock
+      \endverb
+    \endentry
+    \entry{INKOMPASS2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c76dbb92a95ac77d459a82c0070a394a}{%
+           family={INKOMPASS},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{c76dbb92a95ac77d459a82c0070a394a}
+      \strng{fullhash}{c76dbb92a95ac77d459a82c0070a394a}
+      \strng{bibnamehash}{c76dbb92a95ac77d459a82c0070a394a}
+      \strng{authorbibnamehash}{c76dbb92a95ac77d459a82c0070a394a}
+      \strng{authornamehash}{c76dbb92a95ac77d459a82c0070a394a}
+      \strng{authorfullhash}{c76dbb92a95ac77d459a82c0070a394a}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Diakses pada 10 Oktober 2025}
+      \field{title}{Brosur Case Study SRC}
+      \field{year}{2024}
+    \endentry
+    \entry{JosephND}{report}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=937e363dd30daa28d497305aaef74ad4}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Antony\bibnamedelima William},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df453e6b2e54961f62ae8e1292cb9a7e}{%
+           family={Dv},
+           familyi={D\bibinitperiod},
+           given={Jeevitha\bibnamedelima Shree},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f925748db914ee02c74c551d9160120e}{%
+           family={Preet},
+           familyi={P\bibinitperiod},
+           given={Kama},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38296536b308a04da897db85a35b517f}{%
+           family={Saluja},
+           familyi={S\bibinitperiod},
+           given={Singh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10c672f2bb2b6294ff1ae3fea849d4d1}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d858ded5cadb9632151c732f8e02e288}{%
+           family={Murugesh},
+           familyi={M\bibinitperiod},
+           given={Ramaswami},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f7db5b4771eedd8f69efb8433e63a53}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Pradipta},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d59490cec5a784bf4acba0b35ad159f}
+      \strng{fullhash}{cdeb478f125d5212b3e4c4a8ece8e794}
+      \strng{bibnamehash}{cdeb478f125d5212b3e4c4a8ece8e794}
+      \strng{authorbibnamehash}{cdeb478f125d5212b3e4c4a8ece8e794}
+      \strng{authornamehash}{1d59490cec5a784bf4acba0b35ad159f}
+      \strng{authorfullhash}{cdeb478f125d5212b3e4c4a8ece8e794}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Usage of smartphones and tablets have been increasing rapidly with multi-touch interaction and powerful configurations. Performing tasks on mobile phones become more complex as people age, thereby increasing their cognitive workload. In this context, we conducted an eye tracking study with 50 participants between the age of 20 to 60 years and above, living in Bangalore, India. This paper focuses on visual nature of interaction with mobile user interfaces. The study aims to investigate how aging affects user experience on mobile phones while performing complex tasks, and estimate cognitive workload using eye tracking metrics. The study consisted of five tasks that were performed on an android mobile phone under naturalistic scenarios using eye tracking glasses. We recorded ocular parameters like fixation rate, saccadic rate, average fixation duration, maximum fixation duration and standard deviation of pupil dilation for left and right eyes respectively for each participant. Results from our study show that aging has a bigger effect on performance of using mobile phones irrespective of any complex task given to them. We noted that, participants aged between 50 to 60+ years had difficulties in completing tasks and showed increased cognitive workload. They took longer fixation duration to complete tasks which involved copy-paste operations. Further, we identifed design implications and provided design recommendations for designers and manufacturers.}
+      \field{title}{Eye Tracking to Understand Impact of Aging on Mobile Phone Applications}
+      \field{type}{techreport}
+      \keyw{Aging,Behaviour,Cognitive,Experience,Interaction,Interface,Mobile,Ocular,Parameters,Performance,Task,User,Workload}
+    \endentry
+    \entry{Junaidi2025}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54f138144e60d9217153889ad3a3868a}{%
+           family={Junaidi},
+           familyi={J\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54f138144e60d9217153889ad3a3868a}
+      \strng{fullhash}{54f138144e60d9217153889ad3a3868a}
+      \strng{bibnamehash}{54f138144e60d9217153889ad3a3868a}
+      \strng{authorbibnamehash}{54f138144e60d9217153889ad3a3868a}
+      \strng{authornamehash}{54f138144e60d9217153889ad3a3868a}
+      \strng{authorfullhash}{54f138144e60d9217153889ad3a3868a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dilakukan pada 29 September 2025}
+      \field{title}{Wawancara Pribadi}
+      \field{year}{2025}
+    \endentry
+    \entry{Kendrick2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=895111aa996fb58cede3a657c1710103}{%
+           family={Kendrick},
+           familyi={K\bibinitperiod},
+           given={Alita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895111aa996fb58cede3a657c1710103}
+      \strng{fullhash}{895111aa996fb58cede3a657c1710103}
+      \strng{bibnamehash}{895111aa996fb58cede3a657c1710103}
+      \strng{authorbibnamehash}{895111aa996fb58cede3a657c1710103}
+      \strng{authornamehash}{895111aa996fb58cede3a657c1710103}
+      \strng{authorfullhash}{895111aa996fb58cede3a657c1710103}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inclusive Design - NN/G}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/inclusive-design/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/inclusive-design/
+      \endverb
+    \endentry
+    \entry{KompasGramediaMedia2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2db937d2cb66fc6c46f32d56ca904413}{%
+           family={{Kompas Gramedia Media}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2db937d2cb66fc6c46f32d56ca904413}
+      \strng{fullhash}{2db937d2cb66fc6c46f32d56ca904413}
+      \strng{bibnamehash}{2db937d2cb66fc6c46f32d56ca904413}
+      \strng{authorbibnamehash}{2db937d2cb66fc6c46f32d56ca904413}
+      \strng{authornamehash}{2db937d2cb66fc6c46f32d56ca904413}
+      \strng{authorfullhash}{2db937d2cb66fc6c46f32d56ca904413}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Riset Kompas Gramedia (KG) Media: Kontribusi omzet Toko SRC mencapai 236 Triliun/tahun pada perekonomian nasional - SRC.id}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.src.id/blog/liputan/riset-kompas-gramedia-kg-media-kontribusi-omzet-toko-src-mencapai-236-triliuntahun-pada-perekonomian-nasional
+      \endverb
+      \verb{url}
+      \verb https://www.src.id/blog/liputan/riset-kompas-gramedia-kg-media-kontribusi-omzet-toko-src-mencapai-236-triliuntahun-pada-perekonomian-nasional
+      \endverb
+    \endentry
+    \entry{MazeND}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef6cbecb758a180dfc17cb7807c26be5}{%
+           family={{Maze}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \strng{fullhash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \strng{bibnamehash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \strng{authorbibnamehash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \strng{authornamehash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \strng{authorfullhash}{ef6cbecb758a180dfc17cb7807c26be5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{7 Usability Testing Methods for UX Insights | Maze}
+      \verb{urlraw}
+      \verb https://maze.co/guides/usability-testing/methods/
+      \endverb
+      \verb{url}
+      \verb https://maze.co/guides/usability-testing/methods/
+      \endverb
+    \endentry
+    \entry{Nash2017}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27bbe317364ce3243643963b8003ff07}{%
+           family={Nash},
+           familyi={N\bibinitperiod},
+           given={Monnisa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{27bbe317364ce3243643963b8003ff07}
+      \strng{fullhash}{27bbe317364ce3243643963b8003ff07}
+      \strng{bibnamehash}{27bbe317364ce3243643963b8003ff07}
+      \strng{authorbibnamehash}{27bbe317364ce3243643963b8003ff07}
+      \strng{authornamehash}{27bbe317364ce3243643963b8003ff07}
+      \strng{authorfullhash}{27bbe317364ce3243643963b8003ff07}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research paper discusses the correlation between Human Computer Interaction (HCI) and the value of aesthetic attractiveness as opposed to usability with different age groups. Younger age groups are often more intuitive and proficient in using technology than older age groups. Additionally, other studies have shown that aesthetic attractiveness often yields positive effects on the perceived usability of a product. This study examined whether younger age groups (adults between the ages of 18-39) would be more inclined than older age groups (adults aged 40 and older) to use a product for its aesthetics rather than its usability, given their proficiency. A program containing two visual and interactive calculators was created. The first calculator was an "attractive" calculator that had less usability. The "attractive" calculator was designed to have a more pleasing color scheme and smaller misplaced buttons. The second calculator an "unattractive" calculator that had more usability. The "unattractive" calculator used a less complimentary color scheme, but had large buttons that were reasonably placed like most calculators. A second set of calculators was also created using the same designs of the calculators, but with different colors palettes to further emphasize the aesthetic discrepancy. Two surveys were conducted for each set of calculators. The surveys had the participants assess their initial impressions of the calculators before testing each calculator by timing participants while they solved a list of equations. The survey then required the participants to reassess their ratings of each calculator's aesthetic attractiveness and usability. The surveys were conducted with each set of calculators on different occasions and with participants with similar educational and career backgrounds. The results of the surveys found that both age groups preferred to use the "unattractive" calculator as it had higher usability. Younger age groups were not more inclined to use the more aesthetically pleasing calculator despite their proficiency, refuting the hypothesis.}
+      \field{title}{HCI Design and Age Groups}
+      \field{type}{techreport}
+      \field{volume}{15}
+      \field{year}{2017}
+    \endentry
+    \entry{Nielsen2000}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why You Only Need to Test with 5 Users - NN/G}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+      \endverb
+    \endentry
+    \entry{PTHMSampoernaTbk2024}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69ab9ba3169641113e2628a4ddab8d12}{%
+           family={{PT HM Sampoerna Tbk}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PT HM Sampoerna Tbk}%
+      }
+      \strng{namehash}{69ab9ba3169641113e2628a4ddab8d12}
+      \strng{fullhash}{69ab9ba3169641113e2628a4ddab8d12}
+      \strng{bibnamehash}{69ab9ba3169641113e2628a4ddab8d12}
+      \strng{authorbibnamehash}{69ab9ba3169641113e2628a4ddab8d12}
+      \strng{authornamehash}{69ab9ba3169641113e2628a4ddab8d12}
+      \strng{authorfullhash}{69ab9ba3169641113e2628a4ddab8d12}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PT HM SAMPOERNA Tbk Annual Report \& Sustainability Report (2024)}
+      \field{type}{techreport}
+      \field{year}{2024}
+    \endentry
+    \entry{SampoernaRetailCompany20222}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b56609e16886629b40586f3e837df8ce}{%
+           family={{Sampoerna Retail Company}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{fullhash}{b56609e16886629b40586f3e837df8ce}
+      \strng{bibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorbibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authornamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorfullhash}{b56609e16886629b40586f3e837df8ce}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cara Jualan Produk Digital Dengan Pojok Bayar SRC Indonesia}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.src.id/blog/liputan/cara-jualan-produk-digital-dengan-pojok-bayar-src-indonesia
+      \endverb
+      \verb{url}
+      \verb https://www.src.id/blog/liputan/cara-jualan-produk-digital-dengan-pojok-bayar-src-indonesia
+      \endverb
+    \endentry
+    \entry{SampoernaRetailCompany20221}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b56609e16886629b40586f3e837df8ce}{%
+           family={{Sampoerna Retail Company}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{fullhash}{b56609e16886629b40586f3e837df8ce}
+      \strng{bibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorbibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authornamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorfullhash}{b56609e16886629b40586f3e837df8ce}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cara Selesaikan Misi SRC di Aplikasi AYO Toko}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.src.id/blog/liputan/cara-selesaikan-misi-src-di-aplikasi-ayo-toko
+      \endverb
+      \verb{url}
+      \verb https://www.src.id/blog/liputan/cara-selesaikan-misi-src-di-aplikasi-ayo-toko
+      \endverb
+    \endentry
+    \entry{SampoernaRetailCompany2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b56609e16886629b40586f3e837df8ce}{%
+           family={{Sampoerna Retail Company}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{fullhash}{b56609e16886629b40586f3e837df8ce}
+      \strng{bibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorbibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authornamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorfullhash}{b56609e16886629b40586f3e837df8ce}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{4 Alasan Buat Kamu Memanfaatkan Pojok Untung SRC}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.src.id/blog/cerita-sahabat/4-alasan-buat-kamu-memanfaatkan-pojok-untung-src
+      \endverb
+      \verb{url}
+      \verb https://www.src.id/blog/cerita-sahabat/4-alasan-buat-kamu-memanfaatkan-pojok-untung-src
+      \endverb
+    \endentry
+    \entry{SampoernaRetailCompany2025}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b56609e16886629b40586f3e837df8ce}{%
+           family={{Sampoerna Retail Company}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{fullhash}{b56609e16886629b40586f3e837df8ce}
+      \strng{bibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorbibnamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authornamehash}{b56609e16886629b40586f3e837df8ce}
+      \strng{authorfullhash}{b56609e16886629b40586f3e837df8ce}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tentang Kami | SRC}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.src.id/tentang-kami
+      \endverb
+      \verb{url}
+      \verb https://www.src.id/tentang-kami
+      \endverb
+    \endentry
+    \entry{Siang2025}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9bca067f6fc2d75fbd9bf98d9839908b}{%
+           family={Siang},
+           familyi={S\bibinitperiod},
+           given={Teo\bibnamedelima Yu},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \strng{fullhash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \strng{bibnamehash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \strng{authorbibnamehash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \strng{authornamehash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \strng{authorfullhash}{9bca067f6fc2d75fbd9bf98d9839908b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Interaction Design? | IxDF}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/article/what-is-interaction-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/article/what-is-interaction-design
+      \endverb
+    \endentry
+    \entry{Sutanto2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8070ff71ae25fbb68a26f89197dcf6ce}{%
+           family={Sutanto},
+           familyi={S\bibinitperiod},
+           given={Romulus},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \strng{fullhash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \strng{bibnamehash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \strng{authorbibnamehash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \strng{authornamehash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \strng{authorfullhash}{8070ff71ae25fbb68a26f89197dcf6ce}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{(10) INKOMPASS Innovation Challenge Podcast – Get to Know More About The Case | LinkedIn}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/events/7242834922476896257/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/events/7242834922476896257/
+      \endverb
+    \endentry
+    \entry{Vetter2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f0a4038fd069d8bbe7c0ccd411b1c393}{%
+           family={Vetter},
+           familyi={V\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86fdabdd95d8bfead3ceff6d54eecba5}{%
+           family={Bützler},
+           familyi={B\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b71fb60bcff3bbae766e15b953fda51a}{%
+           family={Jochems},
+           familyi={J\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=231404811bcccdc143fbe72679f421c6}{%
+           family={Schlick},
+           familyi={S\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{739b343a237c62a78351c8bad30c137b}
+      \strng{fullhash}{cb63bd7fa60678eba413fd45bf797cb0}
+      \strng{bibnamehash}{cb63bd7fa60678eba413fd45bf797cb0}
+      \strng{authorbibnamehash}{cb63bd7fa60678eba413fd45bf797cb0}
+      \strng{authornamehash}{739b343a237c62a78351c8bad30c137b}
+      \strng{authorfullhash}{cb63bd7fa60678eba413fd45bf797cb0}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fast aging of many western and eastern societies and their increasing reliance on information technology create a compelling need to reconsider older users' interactions with computers. This paper summarizes the results of 6 years of research on the age-differentiated design of human-computer interaction. The well-known model of human information processing served as the theoretical framework. The model components "sensory processing", "perception", "working memory", "decision and response selection" and "response execution" were analyzed exemplarily in task settings on project management. In seven empirical studies with a total number of 405 participants between 20 and 77 years the human-computer interaction was analyzed regarding effectiveness, efficiency and user satisfaction. For most but not all studies the results reveal that age-induced differences in human-computer interaction can best be compensated by an ergonomic "design for all". In some cases however an age-specific approach is favorable. © 2012 - IOS Press and the authors. All rights reserved.}
+      \field{booktitle}{Work}
+      \field{issn}{10519815}
+      \field{issue}{SUPPL.1}
+      \field{title}{Consolidated findings from 6 years research on the age-differentiated design of human-computer interaction}
+      \field{volume}{41}
+      \field{year}{2012}
+      \field{pages}{5129\bibrangedash 5136}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3233/WOR-2012-0082-5129
+      \endverb
+      \keyw{Human-Computer interaction,age-differentiated adaptation,aging,interface design}
+    \endentry
+    \entry{Vinney2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e3ede37419911892ebc735ea38b66217}{%
+           family={Vinney},
+           familyi={V\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3ede37419911892ebc735ea38b66217}
+      \strng{fullhash}{e3ede37419911892ebc735ea38b66217}
+      \strng{bibnamehash}{e3ede37419911892ebc735ea38b66217}
+      \strng{authorbibnamehash}{e3ede37419911892ebc735ea38b66217}
+      \strng{authornamehash}{e3ede37419911892ebc735ea38b66217}
+      \strng{authorfullhash}{e3ede37419911892ebc735ea38b66217}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The ultimate guide to usability testing for UX in 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.uxdesigninstitute.com/blog/guide-to-usability-testing-for-ux/
+      \endverb
+      \verb{url}
+      \verb https://www.uxdesigninstitute.com/blog/guide-to-usability-testing-for-ux/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

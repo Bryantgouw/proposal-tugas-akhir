@@ -7,18 +7,277 @@
 \chapter{ANALISIS MASALAH}
 \label{chap:analisis-masalah}
 \section{Analisis Kondisi Saat Ini}
-Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
+Untuk memahami permasalahan yang terdapat pada sistem aplikasi AYO TOKO, penting untuk mengetahui model konseptual sistem tersebut yang mencakup berbagai komponen atau subsistem dan interaksi antar subsistem tersebut. Adapun model konseptual dari sistem aplikasi AYO TOKO dapat dilihat sebagai berikut. 
+\vspace*{0.7cm}
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/existing.png}
+	\caption{Sistem Informasi Aplikasi AYO TOKO}
+	\label{gambar:sistemayotoko}
+\end{figure}
+\vspace*{1.3cm}
+
+Sistem informasi aplikasi AYO TOKO ditunjukkan pada Gambar III.1. Sistem informasi ini terdiri atas beberapa komponen, yaitu:
+\begin{enumerate}[label=\alph*.]
+\item   Pemesanan Stok Produk \\
+Sistem ini digunakan oleh pemilik toko SRC untuk melakukan pemesanan produk kepada mitra grosir yang bekerjasama dengan SRC atau menggunakan aplikasi AYO Mitra. \\
+
+\item   Manajemen Produk Ritel \\
+Sistem ini digunakan oleh pemilik toko SRC untuk melakukan pengaturan terhadap \textit{detail} produk yang dijual seperti tipe produk, harga produk, hingga stok produk yang tersedia di toko. \\
+
+\item   Aksesibilitas Pusat Bantuan \\
+Sistem ini digunakan oleh pemilik toko SRC untuk mendapatkan bantuan \textit{customer service} secara langsung dari Sampoerna Retail Company (SRC), yang diberi nama Bude. Selain fitur Bude, sistem juga menyediakan panduan pemakaian aplikasi untuk pengguna baru. \\
+
+\item   Penyelesaian Misi (Gamifikasi) \\
+Sistem ini menyediakan berbagai misi yang perlu diselesaikan oleh pemilik toko SRC untuk mendapatkan tambahan modal usaha toko kelontong mereka. \\
+
+\item   Penyediaan Layanan Digital (Pojok Bayar) \\
+Sistem ini memberikan peluang usaha kepada pemilik toko SRC untuk menjual berbagai produk digital seperti paket data internet, pulsa, voucher games, dan token listrik PLN. \\
+
+\item   Peningkatan Program Kerjasama (Pojok Untung) \\
+Sistem ini memberikan kesempatan kepada pemilik toko SRC untuk menjadi agen atau mitra dari sejumlah partner SRC seperti BNI dan Anter Aja. \\
+
+\item   Pemilik Toko SRC \\
+Pihak utama yang menggunakan sistem aplikasi AYO TOKO. \\
+
+\item   Pengguna MY AYO \\
+Pihak yang berbelanja kebutuhan sehari-hari di Toko SRC secara fisik atau melalui sistem pesan antar. \\
+
+\item   Pengguna AYO Mitra \\
+Pihak yang menjual produk dalam jumlah banyak kepada \textit{retailers} atau toko SRC. \\
+
+\item   Data Utama Aplikasi \\
+Data penting pengguna yang disimpan oleh aplikasi AYO TOKO, mencakup data transaksi, data produk, data toko, dan data pengguna. \\
+\end{enumerate}
+
+Untuk mengidentifikasi masalah dalam sistem informasi aplikasi AYO TOKO, peneliti telah melakukan wawancara dengan 12 pemilik toko di Kota Bandung. Jumlah partisipan tersebut dinilai memadai karena memenuhi rekomendasi Nielsen, yang menyarankan minimum 5 responden untuk tahap awal. Selain itu, penelitian ini juga berfokus pada 1 kategori pengguna, yaitu dewasa madya dengan kelompok usia 40 hingga 60 tahun sebagaimana didefinisikan oleh Hurlock. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/kategori_usia.png}
+	\caption{Persebaran Rentang Usia Pemilik Toko SRC}
+	\label{gambar:rentangusia}
+\end{figure}
+
+Hasil wawancara menunjukkan bahwa 83,3\% responden berada dalam kategori dewasa madya, sementara sisanya berusia di bawah 40 tahun. Dengan demikian, sebagian besar temuan yang dihasilkan merepresentasikan kelompok pengguna utama yang menjadi fokus penelitian. Beberapa permasalahan yang disampaikan oleh mayoritas responden (83,3\%), dengan sisanya berperan sebagai informasi pendukung, adalah sebagai berikut.
+\begin{enumerate}
+\item   Kompleksitas Sistem \\
+Sistem aplikasi AYO TOKO dilengkapi dengan berbagai fitur pendukung seperti misi, langganan, pojok bayar, pojok untung, dan promosi. Keberagaman fitur yang ditawarkan memang terlihat menarik dan memberikan nilai tambah bagi aplikasi tersebut. Namun, bagi sebagian besar pemilik toko SRC, mereka membutuhkan sebuah sistem dengan alur yang lebih sederhana dan dapat secara langsung mendukung tujuan utama mereka, yaitu melakukan pembelian produk dari mitra grosir dengan cepat dan efisien, serta melakukan manajemen terhadap produk yang mereka jual. \\
+
+\item   Keterbacaan dan Kenyamanan Visual \\
+Desain antarmuka dari aplikasi AYO TOKO saat ini memiliki tingkat keterbacaan yang rendah, terkhususnya untuk pengguna dewasa madya. Ukuran teks dan ikon yang cukup kecil membuat pengguna kesulitan dalam memahami fungsi setiap elemen. \\
+
+\item   Aksesibilitas Bantuan dan Layanan Dukungan \\
+Sistem aplikasi AYO TOKO saat ini telah menyediakan akses bantuan bagi pengguna yang mengalami kendala melalui fitur Bude. Namun, berdasarkan hasil wawancara, sebagian pengguna aplikasi AYO TOKO merasa bahwa fitur Bude belum cukup membantu karena \textit{response time} yang cukup lama. Dengan demikian, banyak pengguna yang lebih memilih untuk meminta bantuan dari \textit{salesman} yang datang ke tokonya, meskipun tugas utama \textit{salesman} bukan untuk menangani permasalahan teknis terkait aplikasi. \\
+\end{enumerate}
+
+Dengan demikian, sistem informasi aplikasi AYO TOKO dapat dikatakan cukup berhasil menjadi sebuah solusi yang inovatif bagi toko kelontong melalui keberagaman fitur yang ditawarkannya. Namun, apabila melihat dari sudut pandang penggunanya, hal tersebut belum sepenuhnya menjawab kebutuhan mereka. Pengguna lebih mementingkan kualitas pengalaman penggunaan yang sederhana dan efisien untuk mencapai tujuan utama mereka, yaitu mengelola katalog produk yang mereka jual dan berbelanja produk dari mitra grosir secara cepat dan mudah. Selain itu, temuan ini turut diperkuat oleh fakta bahwa 25\% responden menyatakan tidak menggunakan aplikasi AYO TOKO. 
+\vspace*{0.3cm}
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/frekuensi_penggunaan.png}
+	\caption{Persebaran Frekuensi Penggunaan Aplikasi AYO TOKO}
+	\label{gambar:frekuensipenggunaan}
+\end{figure}
+
 \section{Analisis Kebutuhan}
-\lipsum[4]
 \subsection{Identifikasi Masalah Pengguna}
-\lipsum[5]
+Pengguna utama dari sistem aplikasi AYO TOKO adalah pemilik Toko SRC. Adapun permasalahan yang dihadapi oleh pengguna tersebut antara lain:
+\begin{enumerate}
+\item   Kompleksitas dari sistem (Fitur pendukung yang terlalu banyak dan alur pemakaian yang kompleks) membuat pengguna kebingungan saat menggunakan aplikasi.
+\item   Ukuran tulisan dan ikon yang terlalu kecil membuat pengguna kesulitan dalam memahami fungsi setiap elemen. 
+\item   Aksesibilitas terhadap pusat bantuan, yaitu fitur Bude, masih terbatas karena \textit{response time} yang terlalu lama. Akibatnya pengguna seringkali meminta bantuan kepada \textit{salesman}. 
+\item   Kurangnya kemandirian dalam penggunaan aplikasi pada tahap awal. Pengguna masih memerlukan pendampingan dari \textit{salesman} karena tidak dapat mempelajari cara penggunaan aplikasi secara mandiri ketika pertama kali menggunakannya.  
+\end{enumerate}
+\vspace*{1cm}
+
+Untuk mencari solusi atas masalah-masalah tersebut, perlu disusun kebutuhan fungsional dan nonfungsional sistem yang diperlukan. Subbab berikut menjabarkan kebutuhan-kebutuhan tersebut.
+
 \subsection{Kebutuhan Fungsional}
-\lipsum[6]
+Berdasarkan hasil identifikasi permasalahan yang telah dilakukan sebelumnya, kebutuhan fungsional dari sistem aplikasi AYO TOKO yang diinginkan oleh setiap pengguna adalah sebagai berikut:
+\begin{enumerate}
+\item   Sistem harus menyediakan struktur menu serta alur pemakaian fitur yang sederhana dan mudah untuk dipelajari sehingga pengguna dapat menggunakan fitur utama dari aplikasi AYO TOKO secara mandiri. 
+\item   Sistem memiliki kapabilitas untuk menyesuaikan ukuran teks dan ikon sesuai kebutuhan pengguna aplikasi AYO TOKO. 
+\item   Sistem harus menyediakan mekanisme bantuan yang lebih responsif sehingga pengguna mampu memperoleh solusi secara cepat. 
+\item   Sistem harus menyediakan panduan bagi pengguna baru yang lebih interaktif dan mudah dipahami untuk membantu mereka dalam memahami fitur yang tersedia di aplikasi AYO TOKO tanpa bantuan.
+\end{enumerate}
+\vspace*{0.5cm}
+
+Jadi, sistem informasi aplikasi AYO TOKO perlu ditingkatkan dengan pengubahan struktur menu dan alur pemakaian fitur yang lebih sederhana, penambahan kapabilitas untuk menyesuaikan ukuran teks dan ikon, penyediaan mekanisme bantuan yang lebih responsif serta panduan bagi pengguna baru yang lebih interaktif. Dengan memenuhi kebutuhan fungsional ini, pelayanan akan lebih mudah, cepat, dan nyaman bagi pemilik toko SRC. 
+
 \subsection{Kebutuhan Nonfungsional}
-\lipsum[7]
+Adapun kebutuhan nonfungsional dari sistem aplikasi AYO TOKO adalah sebagai berikut:
+\begin{enumerate}
+\item   \textit{Usability} \\ 
+Aplikasi AYO TOKO harus mudah untuk digunakan bagi pemilik toko SRC, khususnya bagi pengguna dewasa madya. Antarmuka dirancang sehingga intuitif dan memungkinkan mereka untuk menyelesaikan tugas utama tanpa kebingungan atau kesalahan yang signifikan. \\
+
+\item   \textit{Accessibility} \\
+Aplikasi AYO TOKO harus memastikan seluruh elemen antarmuka, termasuk teks, tombol, dan ikon, yang mudah dilihat dan dikenali oleh pengguna. Desain harus memiliki kontras warna yang tinggi, ukuran elemen yang cukup besar, serta pola interaksi yang sederhana sehingga mudah untuk diakses bagi pengguna dewasa madya. \\
+
+\item   \textit{Learnability} \\
+Pengguna baru aplikasi AYO TOKO harus dapat memahami penggunaan aplikasinya dengan cepat dan mandiri. Dalam waktu kurang dari 10 menit, pengguna diharapkan mampu memahami fungsi utama aplikasi tanpa memerlukan bantuan dari pihak lain. \\
+\end{enumerate}
+
+Jadi, pemenuhan kebutuhan nonfungsional ini bertujuan untuk memastikan sistem informasi aplikasi AYO TOKO dapat berjalan secara mudah dan nyaman bagi penggunanya. 
 
 \section{Analisis Pemilihan Solusi}
 \subsection{Alternatif Solusi}
-\lipsum[8]
+Berdasarkan permasalahan yang telah dijabarkan pada bagian sebelumnya, peneliti melakukan pemetaan antara masalah yang ditemukan dengan potensi solusi desain interaksi yang dapat dikembangkan sebagai arah pengembangan pada tahap berikutnya. 
+
+\begin{table}[H] 
+  \begin{tabular}{ | p{6.5cm} | p{6.5cm} |}
+	\hline
+	\textbf{Permasalahan yang Ditemukan} 
+	&
+	\textbf{Potensi Solusi Desain Interaksi} \\
+	
+	\hline
+    a. Kompleksitas dari sistem (fitur pendukung yang terlalu banyak dan alur pemakaian yang kompleks) membuat pengguna kebingungan saat menggunakan aplikasi.
+    &
+	Simplifikasi menu, fitur, dan alur pemakaian aplikasi AYO TOKO. \\
+
+	\hline
+    b. Ukuran tulisan dan ikon yang terlalu kecil membuat pengguna kesulitan dalam memahami fungsi setiap elemen.
+    &
+	Penyesuaian antarmuka aplikasi AYO TOKO sesuai preferensi pengguna. \\
+
+	\hline
+	\begin{minipage}[t]{\linewidth}
+	c. Aksesibilitas terhadap pusat bantuan (fitur Bude) masih terbatas karena \textit{response time} yang terlalu lama. Akibatnya pengguna seringkali meminta bantuan kepada \textit{salesman}.
+
+	\vspace{0.5em}
+
+	d. Kurangnya kemandirian dalam penggunaan aplikasi pada tahap awal. Pengguna masih memerlukan pendampingan dari \textit{salesman} karena tidak dapat mempelajari cara penggunaan aplikasi secara mandiri ketika pertama kali menggunakannya.
+	\end{minipage}
+    &
+	Penyediaan panduan interaktif serta fitur bantuan yang sederhana untuk pengguna aplikasi AYO TOKO. \\
+	
+	\hline
+	\end{tabular}
+\caption{Pemetaan Masalah dan Solusi Desain Interaksi}
+\label{tbl:pemetaan1}
+\end{table}
+
+Penjelasan lebih rinci terkait masing-masing alternatif solusi desain interaksi dapat dilihat pada uraian berikut.
+
+\begin{longtable}{ | p{3.5cm} | p{3.5cm} | p{3.5cm} | p{3.5cm} | }
+\caption{Penjelasan Setiap Alternatif Solusi}
+\label{tbl:alternatif_solusi}\\
+\hline
+\textbf{Alternatif Solusi} 
+&
+\textbf{Deskripsi} 
+&
+\textbf{Kelebihan} 
+&
+\textbf{Kekurangan} \\
+\hline
+\endfirsthead 
+
+\multicolumn{4}{c}{\tablename\ \thetable\ Penjelasan Setiap Alternatif Solusi (lanjutan)} \\ 
+\hline
+\textbf{Alternatif Solusi} 
+&
+\textbf{Deskripsi} 
+&
+\textbf{Kelebihan} 
+&
+\textbf{Kekurangan} \\
+\hline
+\endhead 
+
+\hline 
+\multicolumn{4}{|r|}{Bersambung ke halaman berikutnya} \\ 
+\hline
+\endfoot 
+
+\hline
+\endlastfoot 
+
+Solusi 1: Simplifikasi menu, fitur, dan alur pemakaian aplikasi AYO TOKO
+&
+Solusi ini berfokus pada penyederhanaan tampilan aplikasi AYO TOKO dengan hanya menyediakan fitur dan menu utama yang benar-benar dibutuhkan pemilik toko SRC. Fitur utama ini meliputi penyetokan produk di toko dan pembaruan katalog. Selain itu, solusi ini juga menekankan perancangan alur penyetokan produk yang lebih sederhana dan efisien dibandingkan proses yang digunakan saat ini.
+&
+Solusi ini menyederhanakan cakupan fitur, menu, dan alur aplikasi sehingga pengguna dewasa madya dapat lebih mudah memahami cara penggunaan, serta meminimalkan beban kognitif saat berinteraksi dengan aplikasi.
+&
+Solusi ini dirancang dengan menyesuaikan kebutuhan pengguna yang mayoritas dewasa madya. Namun solusi ini belum menyediakan kapabilitas untuk menyesuaikan tampilan secara mandiri, seperti memperbesar ukuran teks dan ikon sesuai preferensi pribadi.
+\\
+\hline
+
+Solusi 2: Penyesuaian antarmuka aplikasi AYO TOKO sesuai preferensi pengguna
+&
+Solusi ini menyediakan kapabilitas bagi pengguna untuk menyesuaikan beberapa mode tampilan sesuai preferensi mereka, seperti pengaturan warna, struktur menu, ukuran teks, ukuran ikon, hingga tampilan tombol yang dapat diubah sesuai kebutuhan.
+&
+Karena setiap pengguna memiliki preferensi yang berbeda, solusi ini memberikan fleksibilitas untuk menyesuaikan pengaturan tampilan aplikasi sesuai kenyamanan masing-masing.
+&
+Solusi ini dirancang hanya untuk memenuhi kebutuhan pengguna dari sisi pengaturan preferensi tampilan agar pengalaman pengguna lebih nyaman. Namun fitur, menu, serta alur tetap mempertahankan struktur yang ada saat ini.
+\\
+\hline
+
+Solusi 3: Penyediaan panduan interaktif serta fitur bantuan yang sederhana
+&
+Solusi ini menyediakan panduan interaktif bagi pengguna yang baru pertama kali menggunakan aplikasi, sehingga mereka dapat mempelajari fitur dan alur penggunaan secara mandiri. Solusi ini juga menyediakan tombol bantuan yang terhubung langsung ke layanan \textit{customer service} untuk memberikan bantuan ketika pengguna mengalami kendala.
+&
+Solusi ini dapat meminimalisir ketergantungan pemilik toko SRC pada \textit{salesman} ketika menghadapi kendala penggunaan aplikasi. Panduan interaktif dan bantuan \textit{customer service} juga dapat meningkatkan kepercayaan diri dan \textit{engagement} pengguna.
+&
+Solusi ini meningkatkan aksesibilitas melalui bantuan dan panduan, namun tidak mengubah atau menyederhanakan kompleksitas sistem aplikasi yang ada saat ini.
+\\
+\hline
+
+\end{longtable}
+
 \subsection{Analisis Penentuan Solusi}
-\lipsum[9]
+Setelah mengetahui \textit{detail} dari setiap alternatif solusi, penentuan solusi terbaik untuk mengatasi permasalahan pada aplikasi AYO TOKO dilakukan melalui analisis perbandingan yang menggunakan metrik relevan dalam sebuah \textit{decision matrix}, sebagaimana ditampilkan pada Tabel III.3. 
+
+\begin{table}[H]
+\centering
+\caption{\textit{Decision Matrix} Alternatif Solusi}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Kriteria} & \textbf{Bobot} & \textbf{Solusi 1} & \textbf{Solusi 2} & \textbf{Solusi 3} \\
+\hline
+
+Aksesibilitas dan Kemudahan Penggunaan & 0.25 & 5 & 3 & 4 \\
+\hline
+
+Kemudahan Dipelajari & 0.25 & 4 & 3 & 4 \\
+\hline
+
+Kemudahan Implementasi Teknis & 0.20 & 3 & 4 & 3 \\
+\hline
+
+Biaya Implementasi & 0.20 & 3 & 4 & 3 \\
+\hline
+
+Skalabilitas & 0.10 & 4 & 5 & 3 \\
+\hline
+
+\multicolumn{2}{|l|}{\textbf{Skor Total}}  & \textbf{3.85} & \textbf{3.60} & \textbf{3.50} \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Berdasarkan \textit{decision matrix} yang telah dilakukan pada Tabel III.3, solusi 1 yaitu simplifikasi menu, fitur, dan alur penggunaan aplikasi AYO TOKO, memperoleh skor tertinggi. Penilaian tersebut dapat dijelaskan sebagai berikut.
+\begin{enumerate}
+\item   Aksesibilitas dan Kemudahan Penggunaan \\
+Metrik ini menilai sejauh mana solusi yang dirancang mampu meningkatkan kemudahan penggunaan khususnya bagi pengguna dengan kategori dewasa madya. Solusi 1 memperoleh solusi tertinggi karena secara langsung berfokus pada pengurangan kompleksitas antarmuka dan sistem aplikasi sebelumnya. Solusi ini menjadikan aplikasi tampak sederhana, minimalis, dan terarah pada tujuan utama pengguna menggunakan aplikasi AYO TOKO. \\
+
+\item   Kemudahan Dipelajari \\
+Metrik ini menilai sejauh mana aplikasi mudah dipelajari oleh pengguna baru. Dari ketiga solusi, Solusi 1 dan solusi 3 dinilai memiliki nilai kemudahan belajar yang paling tinggi. Solusi 1 unggul karena proses penyederhanaan antarmuka dan pengurangan kompleksitas sistem.  Dengan beban kognitif yang lebih rendah, pengguna baru dapat memahami cara penggunaan aplikasi dengan cepat. Sementara solusi 3 juga memiliki skor tinggi karena berfokus pada penyediaan panduan yang interaktif dan akses bantuan yang lebih mudah. Meski fitur aplikasi cukup banyak dan kompleks, solusi ini memotivasi pengguna untuk menguasai penggunaan aplikasi dan meningkatkan kenyamanan selama proses belajar. \\
+
+\item   Kemudahan Implementasi Teknis \\
+Metrik ini menilai sejauh mana solusi yang dirancang dapat diwujudkan dengan mudah dan cepat dari segi teknis. Dari ketiga alternatif, solusi 2 memperoleh nilai tertinggi. Hal ini dikarenakan solusi 2 hanya memerlukan modifikasi pada kode yang sudah ada, tanpa mengubah antarmuka dan arsitektur sistem secara signifikan. Penyesuaian antarmuka dapat dilakukan melalui opsi \textit{settings} pada aplikasi AYO TOKO. Sementara itu, solusi 1 dan 3 menuntut perubahan kode yang jauh lebih besar, sehingga waktu dan usaha untuk implementasinya lebih tinggi. \\
+
+\item   Biaya Implementasi \\
+Masih berkaitan dengan metrik kemudahan implementasi teknis, metrik ini menekankan pada estimasi biaya yang diperlukan untuk implementasi teknis setiap solusi. Karena solusi 2 merupakan solusi dengan kompleksitas implementasi teknis paling rendah, maka biaya implementasinya juga menjadi yang paling murah. Hal ini disebabkan oleh ruang lingkup modifikasi yang lebih kecil dibandingkan dengan solusi 1 dan solusi 3. \\
+
+\item   Skalabilitas \\
+Metrik ini mengukur sejauh mana solusi yang dirancang tetap efektif dan adaptif ketika terjadi perkembangan sistem di masa depan. Solusi 2 dinyatakan memiliki tingkat skalabilitas tertinggi dibandingkan dengan solusi 1 dan solusi 3. Hal ini dikarenakan solusi 2 membangun mekanisme yang memungkinkan pengguna untuk menyesuaikan tampilan antarmuka aplikasi AYO TOKO sesuai keinginannya. Ketika jumlah pengguna meningkat dan kebutuhan mereka semakin beragam, solusi ini tetap dapat mengakomodasi variasi tersebut. \\  
+\end{enumerate}

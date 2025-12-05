@@ -3,9 +3,109 @@
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 \label{chap:rencana-selanjutnya}
-Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
-\begin{enumerate}
-\item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
-\item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
-\item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
-\end{enumerate}
+
+\section{Analisis Pemilihan Solusi}
+Rencana perancangan desain interaksi aplikasi AYO TOKO, yang ditujukan secara spesifik bagi pengguna dewasa madya, akan menggunakan pendekatan \textit{User-Centered Design} (UCD). Pendekatan ini dipilih karena UCD berfokus pada kebutuhan, ekspektasi, serta kendala pengguna produk, sehingga memungkinkan peneliti untuk menciptakan solusi desain yang relevan dan sesuai karakteristik target pengguna. Tahapan-tahapan yang akan dilakukan pada setiap fase \textit{User-Centered Design} telah dijabarkan dan dapat dilihat pada Gambar V.1.
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/rencana_berikut.png}
+	\caption{\textit{Activities Breakdown} untuk Metodologi yang Digunakan}
+	\label{gambar:rencanaberikut}
+\end{figure}
+
+\section{Kebutuhan dan Sumber Daya}
+Adapun kebutuhan dan sumber daya yang diperlukan selama proses penelitian adalah sebagai berikut. 
+
+\begin{table}[H]
+  \begin{tabular}{ | p{1cm} | p{4cm} | p{9cm} | }
+    \hline
+    \textbf{No} &
+    \textbf{Nama Sumber Daya} &
+    \textbf{Keterangan} \\
+    \hline
+
+    1 &
+    Partisipan Penelitian &
+    \begin{minipage}[t]{\linewidth}
+    \textbf{a. Pemilik Toko SRC} \\
+    Sekitar 20--30 responden yang merupakan pemilik Toko SRC dibutuhkan untuk \textit{qualitative study}, \textit{prototype testing} iterasi 1, dan \textit{prototype testing} iterasi 2. \\[0.5em]
+    \textbf{b. \textit{Stakeholder} PT HM Sampoerna Tbk} \\
+    1--2 \textit{stakeholder} dari PT HM Sampoerna Tbk (pihak perusahaan atau bisnis) dibutuhkan untuk memvalidasi \textit{requirements} dan solusi desain yang telah dibuat oleh peneliti.
+    \end{minipage}
+    \\
+    \hline
+
+    2 &
+    Software Tools &
+    \begin{minipage}[t]{\linewidth}
+    \textbf{a. Figma} \\
+    \textit{Software} yang akan digunakan peneliti untuk membuat \textit{low-fidelity}, \textit{high-fidelity}, dan \textit{prototype} desain. \\[0.5em]
+    \textbf{b. Google Docs} \\
+    \textit{Software} yang akan digunakan peneliti untuk mencatat hasil wawancara dengan pemilik Toko SRC (\textit{Qualitative Study}). \\[0.5em]
+    \textbf{c. Google Forms} \\
+    \textit{Software} yang akan digunakan peneliti untuk kebutuhan \textit{usability testing prototype}.
+    \end{minipage}
+    \\
+    \hline
+
+    3 &
+    Perangkat &
+    \begin{minipage}[t]{\linewidth}
+    \textbf{a. \textit{Laptop}} \\
+    Perangkat yang akan digunakan peneliti untuk mendesain solusi dan menganalisis data penelitian. \\[0.5em]
+    \textbf{b. \textit{Smartphone}} \\
+    Perangkat uji yang akan digunakan peneliti dalam proses evaluasi solusi desain terhadap pemilik Toko SRC.
+    \end{minipage}
+    \\
+    \hline
+
+  \end{tabular}
+
+  \caption{Kebutuhan dan Sumber Daya Penelitian}
+  \label{tbl:kebutuhansumberdaya}
+\end{table}
+
+\section{Potensi Risiko dan Rencana Mitigasi}
+Potensi risiko yang dapat muncul selama pelaksanaan penelitian serta strategi mitigasi yang dirancang untuk meminimalisir atau mencegah dampak dari risiko dijabarkan sebagai berikut.
+
+\begin{table}[H]
+\centering
+\caption{Potensi Risiko dan Rencana Mitigasi}
+\begin{tabular}{ | p{0.8cm} | p{6cm} | p{6cm} | }
+\hline
+\textbf{No} & \textbf{Risiko} & \textbf{Rencana Mitigasi} \\
+\hline
+
+1 & 
+\textbf{Kesulitan dalam menemukan toko SRC} \newline
+Keterangan: \newline
+Sebagian besar toko SRC tidak memiliki jejak digital, tersebar di berbagai wilayah Kota Bandung, dan beberapa diantaranya berlokasi pada area yang sulit diakses, seperti gang-gang sempit.
+&
+Memprioritaskan kunjungan ke toko SRC yang teridentifikasi melalui pencarian daring di internet, kemudian menanyakan informasi tambahan dari pemilik toko SRC tersebut terkait lokasi toko SRC lain di area sekitar tokonya.
+\\
+\hline
+
+2 &
+\textbf{Kesulitan dalam melakukan wawancara dan pengujian} \newline
+Keterangan: \newline
+Mayoritas pemilik toko SRC yang menjadi partisipan dalam sesi wawancara dan pengujian adalah pengguna dewasa madya, dengan tingkat literasi teknologi relatif rendah.
+&
+Membuat strategi pendekatan wawancara dan pengujian yang lebih sesuai untuk responden dewasa madya, seperti menggunakan bahasa percakapan yang sederhana, melaksanakan wawancara secara manual tanpa formulir digital, dan mengarahkan proses pengujian secara singkat dan jelas.
+\\
+\hline
+
+3 &
+\textbf{Solusi desain yang dibuat tidak sesuai ekspektasi pemilik toko SRC dan \textit{stakeholder} PT HM Sampoerna Tbk} \newline
+Keterangan: \newline
+- \textit{Requirements} yang dibuat bertentangan antara keinginan pemilik toko SRC dengan \textit{stakeholder} PT HM Sampoerna Tbk. \newline
+- Desain antarmuka yang terbaru tidak terlalu memberikan dampak yang signifikan bagi pemilik toko SRC.
+&
+- Melakukan pengujian \textit{prototype} desain secara iteratif, serta menanyakan saran untuk perbaikan \textit{prototype} kepada pemilik toko SRC pada setiap iterasi. \newline
+- Mencari alternatif desain yang dapat menyeimbangkan kebutuhan pengguna (pemilik toko SRC) dengan kepentingan \textit{stakeholder} PT HM Sampoerna Tbk, sehingga solusi tetap relevan dan dapat diterima oleh kedua sisi.
+\\
+
+\hline
+\end{tabular}
+\end{table}

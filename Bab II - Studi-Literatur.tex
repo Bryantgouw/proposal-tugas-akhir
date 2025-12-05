@@ -3,287 +3,305 @@
 % ==========================================
 \chapter{STUDI LITERATUR}
 \label{chap:studi-literatur}
-\section{Penulisan Gambar, Tabel, Rumus, dan Kode}
-\lipsum[1]
 
-\subsection{Gambar}
-Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
+\section{PT HM Sampoerna Tbk}
+PT HM Sampoerna Tbk merupakan salah satu perusahaan terkemuka dalam industri rokok nasional dan memiliki afiliasi dengan Philip Morris International (PMI), sebuah perusahaan rokok internasional dengan produk yang telah dijual pada sekitar 180 negara. PT HM Sampoerna Tbk pertama kali didirikan oleh Liem Seeng Tee pada tahun 1913 di Surabaya dan saat ini beroperasi sebagai anak perusahaan dari PT Philip Morris Indonesia (PMID), bagian dari jaringan global PMI. Kegiatan utama yang dilakukan PT HM Sampoerna Tbk meliputi usaha manufaktur rokok konvensional dan produk bebas asap yang memberikan alternatif berbasis ilmiah yang lebih baik bagi perokok dewasa. Salah satu contoh produknya adalah IQOS, sebuah perangkat yang menggunakan teknologi \textit{Heat-Not-Burn} untuk memanaskan batang rokok khususnya yang diberi nama TEREA \cite{PTHMSampoernaTbk2024}.
 
-\begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+\section{Sampoerna Retail Company (SRC)}
+Sampoerna Retail Company (SRC) merupakan sebuah \textit{development program} yang diinisiasi oleh PT HM Sampoerna TBk untuk peritel tradisional, atau lebih dikenal dengan toko kelontong. Program ini bertujuan untuk meningkatkan daya saing toko kelontong melalui praktik bisnis yang berkelanjutan. Upaya tersebut sejalan dengan misi SRC untuk mentransformasi toko kelontong yang sebelumnya tampak gelap dan kurang tertata menjadi lebih bersih, rapi, dan terang. Dalam mewujudkan misinya, SRC memberikan dukungan yang komprehensif bagi para anggotanya untuk berkembang menjadi peritel yang lebih baik, modern, dan adaptif terhadap perkembangan teknologi, khususnya dalam digitalisasi \cite{Sutanto2024}.
+
+Berdasarkan keterangan dari situs resmi \textcite{SampoernaRetailCompany2025}, keberhasilan SRC didukung oleh adanya ekosistem digital terintegrasi yang diberi nama AYO by SRC. Salah satu komponen utama dalam ekosistem ini adalah aplikasi AYO TOKO, yang digunakan pemilik toko SRC dalam melakukan pemesanan produk dari Mitra SRC secara efisien. Aplikasi ini juga dilengkapi dengan beragam fitur pendukung yang dirancang untuk membantu pengembangan usaha para pemilik toko. Beberapa fitur pendukung diantaranya adalah sebagai berikut : 
+\begin{enumerate}
+\item   Misi \\
+Fitur misi SRC memberikan kesempatan kepada pemilik toko SRC untuk menambah modal usaha melalui penyelesaian setiap misi. Salah satu bentuk penghargaan yang dihadirkan melalui fitur misi adalah undangan untuk menghadiri Pesta Retail Nasional bagi pengguna yang mencapai jumlah XP tertentu \cite{SampoernaRetailCompany20221}. \\
+\item   Pojok Bayar \\
+Fitur pojok bayar SRC memudahkan pemilik toko SRC dalam melayani berbagai transaksi produk digital, seperti pulsa, paket data internet, voucher games, dan token listrik PLN. Fitur ini tidak hanya membuka peluang bagi pemilik toko SRC untuk memperoleh pendapatan tambahan, tetapi juga memberikan fleksibilitas kepada mereka untuk menentukan sendiri margin keuntungan yang diperoleh dari setiap transaksi \cite{SampoernaRetailCompany20222}. \\
+\item   Pojok Untung \\
+Fitur pojok untung SRC memungkinkan pemilik toko SRC untuk menjadi agen atau mitra dari berbagai partner SRC, seperti BNI, BRI, Anter Aja, dan BPJS Kesehatan. Melalui kemitraan, pemilik toko SRC berkesempatan mendapatkan komisi secara berjenjang, yang dapat digunakan untuk mendukung ekspansi toko mereka \cite{SampoernaRetailCompany2023}. \\
+\end{enumerate}
+
+\section{\textit{High-Fidelity} Aplikasi AYO TOKO}
+Aplikasi AYO TOKO memiliki halaman utama yang menyediakan berbagai \textit{endpoint} dari fitur-fitur utama, seperti Belanja, Misi, Langganan, Pojok Bayar, Pojok Untung, Katalog SRC, dan Promosi. Namun karena peneliti bukan merupakan anggota SRC, akses yang tersedia dalam penelitian ini terbatas pada fitur Belanja. Alur pembelian produk dari mitra pada aplikasi AYO TOKO dapat dilihat pada \textit{high-fidelity} berikut. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
 	\centering
   \captionsetup{justification=centering}
-    	\includegraphics[width=0.7\textwidth]{image/gambar1.png}
-	\caption{Contoh gambar jaringan}
-	\label{gambar:jaringan}
+    	\includegraphics[width=1.0\textwidth]{image/belanja.png}
+	\caption{Alur Pembelian Produk pada Aplikasi AYO TOKO}
+	\label{gambar:pembelianproduk}
 \end{figure}
 
-Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
-\begin{enumerate}[a.]
-  \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
-  \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
-  \item disimpan dalam resolusi kecil
+Selain fitur utama, peneliti juga mendapatkan akses terhadap alur pengajuan bantuan kepada “Bude”, yaitu layanan bantuan yang disediakan oleh Sampoerna Retail Company. Fitur ini memungkinkan pengguna untuk menyampaikan pertanyaan atau kendala melalui beberapa kanal, yaitu chat, telepon, \textit{video call}, dan email. Alur pengajuan bantuan tersebut dapat dilihat pada \textit{high-fidelity} berikut. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/akses_bantuan.png}
+	\caption{Alur Pengajuan Bantuan pada Aplikasi AYO TOKO}
+	\label{gambar:pengajuanbantuan}
+\end{figure}
+
+\section{Kategori Usia Menurut Hurlock}
+\textcite{Hurlock1953}, seorang psikolog dan penulis ternama, menyampaikan pandangannya tentang perkembangan manusia sepanjang rentang kehidupan. Ia mengelompokkan perkembangan tersebut ke dalam beberapa tahapan yang berbeda, masing-masing ditandai berdasarkan perubahan fisik, kognitif, sosial, dan emosional tertentu. Menurut model yang ia kemukakan, perkembangan manusia terbagi ke dalam 8 tahapan utama sebagai berikut.
+
+\begin{enumerate}
+\item   \textit{Prenatal Period} : dari pembuahan hingga kelahiran.
+\item   \textit{Infancy} : dari lahir hingga 2 minggu.
+\item   \textit{Babyhood} : dari 2 minggu hingga 2 tahun.
+\item   \textit{Early Childhood} : dari 2 tahun hingga 6 tahun.
+\item   \textit{Late Childhood} : dari 6 tahun hingga 12 tahun.
+\item   \textit{Adolescence} : dari 12 tahun hingga 18 tahun.
+\item   \textit{Early Adulthood} : dari 18 tahun hingga 40 tahun.
+\item   \textit{Middle Age} (Dewasa Madya) : dari 40 tahun hingga 60 tahun.
+\item   \textit{Old Age} : dari 60 tahun ke atas.
 \end{enumerate}
-Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
 
-Untuk mendapatkan gambar yang tidak kabur (\textit{blur}), langkah-langkah berikut dapat digunakan:
-\begin{enumerate}[(a)]
-\item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
-\item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (\textit{export as}), lakukan \textit{zoom} ke minimal 300\% (\textit{the default value is} 100\%). 
-\item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-\textit{copy-paste} ke Word.
+\section{Desain Interaksi}
+Desain interaksi merupakan proses merancang bagaimana pengguna berinteraksi dengan suatu produk. Tujuan utamanya adalah menciptakan produk yang memungkinkan pengguna untuk mencapai objekif mereka secara efektif dan efisien. Secara umum, desain interaksi berhubungan dengan berbagai elemen, seperti estetika, gerakan, suara, dan ruang \cite{Siang2025}.
+Dalam praktiknya, istilah desain interaksi sering kali disalahartikan dengan konsep lain seperti \textit{Human-Computer Interaction} (HCI), \textit{User Interface Design} (UI), dan \textit{User Experience Design} (UX).
+\textcite{FigmaND} menjelaskan perbedaan ketiga istilah tersebut sebagai berikut. 
+
+\begin{enumerate}
+\item   \textit{Human-Computer Interaction} (HCI) \\
+HCI berfokus pada bagaimana manusia bertukar informasi dengan komputer. Bahasannya cukup luas, meliputi aspek ergonomi, psikologi kognitif, hingga ilmu komputer. Berbeda dengan HCI, desain interaksi lebih menekankan pada bagaimana pengguna berinteraksi dengan suatu produk. \\
+
+\item   \textit{User Interface Design} (UI) \\
+Meskipun UI dan desain interaksi memiliki area yang saling beririsan, UI memiliki fokus pada pengaturan elemen visual dari sebuah antarmuka, seperti ikon, tombol, tipografi, tata letak, dan aspek estetika lainnya. Berlandaskan dari elemen visual, desain interaksi memberikan kontribusi dengan merancang \textit{behaviour} dari elemen, termasuk bagaimana elemen tersebut merespon \textit{input user}. \\
+
+\item   \textit{User Experience Design (UX)} \\
+UX merupakan displin yang luas dan mencakup aspek interaksi pengguna dengan perusahaan serta produk dan layanan yang ditawarkannya. Prosesnya dimulai dari tahap \textit{initial discovery and branding} hingga evaluasi performa produk atau layanan dari perusahaan. Apabila UX meninjau \textit{user journey} secara keseluruhan, desain interaksi berfokus pada \textit{key touchpoints} yang menentukan kualitas interaksi pengguna dengan produk atau layanan. \\
+\end{enumerate}
+\vspace*{0.7cm}
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/desain_interaksi.png}
+	\caption{Korelasi Desain Interaksi dengan HCI, UI, dan UX}
+	\label{gambar:korelasidesaininteraksi}
+\end{figure}
+
+Untuk memperluas pemahaman tersebut, 5 dimensi dari desain interaksi yang disampaikan oleh Gillian Crampton Smith menjadi fondasi penting untuk memahami ruang lingkup dari desain interaksi secara menyeluruh. 
+\begin{enumerate}
+\item   \textit{Words} \\
+Penggunaan kata dalam antarmuka, seperti \textit{button labels} harus bermakna dan mudah untuk dipahami. Tujuannya adalah menyampaikan informasi kepada pengguna secara efektif tanpa membuat mereka merasa kewalahan. \\
+\vspace*{0.7cm}
+\item   \textit{Visual Representations} \\
+Elemen visual seperti \textit{images, typography,} dan \textit{icons}, digunakan untuk mendukung kata-kata dalam menyampaikan informasi.  \\
+
+\item   \textit{Physical Objects or Space} \\
+Dimensi ini mencakup objek fisik yang digunakan pengguna untuk berinteraksi degnan produk, seperti laptop, mouse, atau \textit{touchpad}. Selain itu, aspek ruang atau konteks penggunaan juga menjadi bagian penting dalam perancangan. \\
+
+\item   \textit{Time} \\ 
+Dimensi ini berkaitan dengan media yang berubah seiring berjalannya waktu, seperti animasi, video, dan audio. Selain itu, durasi interaksi pengguna dengan produk juga perlu diperhatikan.  \\
+
+\item   \textit{Behaviour} \\
+\textit{Behaviour} mengacu pada mekanisme pengguna berinteraksi dan melakukan suatu aksi tertentu terhadap produk. \\
 \end{enumerate}
 
-\subsection{Tabel}
-Tabel ada dua jenis, yaitu tabel yang bisa termuat dalam satu halaman dan tabel yang sangat panjang sehingga tidak muat dalam satu halaman.
-\subsubsection{Tabel yang Muat dalam Satu Halaman}
-Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
+\section{Desain yang Inklusif}
+\textcite{CambridgeDictionaryND} (No date) mendefinisikan inklusif sebagai pendekatan yang menerima individu dari berbagai latar belakang serta memperlakukan mereka secara adil dan setara. 
+Dalam konteks desain, \textcite{Kendrick2022} menjelaskan bahwa desain yang inklusif merupakan metodologi yang bertujuan menghasilkan produk yang dapat dipahami dan digunakan oleh pengguna dengan beragam latar belakang serta kapabilitas. Penerapan desain yang inklusif akan menciptakan pola perancangan tertentu, salah satunya berkaitan dengan keterbacaan teks dan ketersediaan mode gelap, terutama bagi pengguna lanjut usia. Desainer perlu menggunakan ukuran huruf yang cukup besar, kontras warna yang tinggi antara karakter dan latar belakang, serta jenis huruf yang sederhana dan mudah untuk dibaca. Prinsip ini penting karena pengguna lanjut usia umumnya mengalami penurunan kemampuan visual, seperti presbiopia atau rabun dekat yang muncul setelah memasuki usia paruh baya. 
 
-\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-  \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan pokok}
-\label{tbl:harga1}
+\section{Desain Interaksi untuk Dewasa Madya}
+\textcite{Chou2007} menyampaikan bahwa populasi dewasa madya memiliki karakteristik unik yang membedakannya dari kelompok dewasa muda maupun lanjut usia dalam proses belajar dan penggunaan komputer. Para peneliti menilai bahwa kelompok dewasa madya merupakan subjek penting dalam penelitian \textit{usability} dari \textit{human-computer interaction}. Walaupun kelompok ini memiliki keterbatasan literasi komputer yang mirip dengan kelompok lanjut usia, mereka tetap dianggap sebagai sumber tenaga yang vital dalam masyarakat. \textit{Usabillity} dipandang penting karena mengekspresikan hubungan antara pengguna akhir dan aplikasi atau perangkat lunak. Salah satu temuan menunjukkan bahwa desain antarmuka saat ini sering kali tidak mudah dipahami secara fungsional, sehingga menyulitkan dewasa madya untuk membiasakan diri dalam penggunaan perangkat. Meskipun mereka menyadari manfaat dari literasi komputer, sebagian dari mereka kurang percaya diri dalam performa penggunaan perangkat digital. 
+
+Selain itu, \textcite{Nash2017} menemukan bahwa kedua kelompok yang diteliti, yaitu \textit{young adults} (18-39 tahun) dan \textit{older adults} (40 tahun ke atas), lebih memprioritaskan \textit{usability} dibandingkan estetika ketika diperlihatkan dua desain kalkulator yang berbeda. Gambar II.4 menunjukkan bahwa kalkulator pertama berfokus pada estetika, sedangkan kalkulator kedua menonjolkan aspek \textit{usability}. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/test_kalkulator.png}
+	\caption{Dua Desain Kalkulator Nash}
+	\label{gambar:desainkalkulator}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Hasil Penelitian Nash} 
+\label{tbl:nash_result}
+\begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{} & \multicolumn{2}{|c|}{\textbf{\textit{Young Adults}}} & \multicolumn{2}{|c|}{\textbf{\textit{Older Adults}}} \\
+    \hline
+    \textbf{} & \textbf{\textit{Calculator 1}} & \textbf{\textit{Calculator 2}} & \textbf{\textit{Calculator 1}} & \textbf{\textit{Calculator 2}} \\
+    \hline
+    \textit{Initial Attractiveness} & 75\% & 25\% & 66\% & 33\% \\
+    \textit{Initial Usability} & 0\% & 100\% & 0\% & 100\% \\
+    \textit{Equations Correct} & 93\% & 93\% & 93\% & 98\% \\
+    \textit{Average Time} & 13.40 s & 11.75 s & 27.18 s & 24.08 s \\
+    \textit{Final Attractiveness} & 75\% & 25\% & 62\% & 38\% \\
+    \textit{Final Usability} & 0\% & 100\% & 33\% & 66\% \\
+    \hline
+\end{tabular}
 \end{table}
 
+Dengan demikian, penelitian \textcite{Ho2021} di Taiwan menyoroti elemen antarmuka yang dibutuhkan oleh kelompok dewasa madya dan lanjut usia (batasan usia yang digunakan adalah 45 tahun ke atas). Hasil studi menunjukkan bahwa : 
+\begin{enumerate}
+\item   kelompok usia ini lebih menyukai desain antarmuka berbasis tombol dan \textit{list}. Berkaitan dengan tombol, ketika hendak mengoperasikan fitur tertentu seperti \textit{text-to-speech}, mereka lebih meminati tombol tunggal atau operasi yang sederhana. 
+\item   Beberapa partisipan juga menekankan pentingnya pengaturan jarak antar baris saat membaca paragraf.
+\item   \textit{Navigation bar} pada aplikasi dinilai perlu dipertahankan karena sesuai dengan kebutuhan kategori usia ini. 
+\item   Pada saat membaca artikel, dewasa madya dan lanjut usia lebih nyaman dengan interaksi \textit{scroll} atas-bawah karena sesuai kebiasaan mereka dalam penggunaan \textit{platform} Line Today atau Facebook.
+\item   Infografis dengan teks, penggunaan kategori, serta judul dan deskripsi singkat menjadi elemen yang atraktif bagi mereka. Selain itu, penggunaan kata-kata umum dan relevan dalam kehidupan sehari-hari juga memudahkan pemahaman mereka.
+\item   Peneliti menyarankan adanya fitur yang secara otomatis mendeteksi kategori usia pengguna sehingga tampilan aplikasi akan menyesuaikan kebutuhan kategori tersebut. 
+\end{enumerate}
+\vspace*{0.7cm}
 
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/rekomendasi_desain.jpg}
+	\caption{Hasil Penelitian Ho dan Rekannya}
+	\label{gambar:penelitianho}
+\end{figure}
 
-\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-	\begin{tabular}{ | l | c | r | }
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan sekunder}
-\label{tbl:harga2}
-\end{table}
+Sementara itu, \textcite{Vetter2012}, melalui penelitiannya yang melibatkan 405 partisipan dengan rentang usia 20-77 tahun, mengusulkan pendekatan desain “for all” sebagai solusi yang ergonomis, sederhana, dan fleksibel untuk mengurangi perbedaan pengalaman antar kelompok usia. Namun, peneliti juga menegaskan bahwa dalam beberapa kasus, pendekatan desain yang disesuaikan dengan usia tetap lebih efektif. Prinsip desain yang direkomendasikan oleh peneliti adalah sebagai berikut : 
+\begin{enumerate}
+\item   Penggunaan ukuran font yang mencapai 22 pt
+\item   Penerapan interaksi \textit{zoom} yang lebih dominan dibandingkan \textit{scrolling}
+\item   Penerapan \textit{input} berbasis \textit{touch screen} sebagai prioritas.
+\item   Penggunaan \textit{layout} horizontal dengan persebaran aktivitas yang terstruktur.
+\item   Penerapan \textit{refinement of Fitts' Law} untuk menentukan posisi dan ukuran optimal tombol pada layar besar.
+\end{enumerate}
+\vspace*{0.5cm}
 
-% -- Example of importing table from external file --
-\subsubsection{Mengimpor Tabel dari Berkas Eksternal}
+Penelitian lain dari \textcite{JosephND} menunjukkan bahwa kelompok dewasa madya (40-59 tahun) mulai menunjukkan penurunan performa yang signifikan, terutama dalam penyelesaian tugas yang kompleks. Sementara, pada rentang usia 50-59 tahun, tingkat kegagalan meningkat pada \textit{task-task} seperti \textit{“google search and save information in Memo App”} dan \textit{“online shopping using amazon app”} karena tingginya beban kognitif yang diperlukan. Untuk kelompok usia 50 tahun ke atas, para peneliti merekomendasikan penggunaan ukuran tombol interaktif minimal 8 mm sehingga lebih mudah ditekan, memperjelas perbedaan antara \textit{short press} dan \textit{long press}, mengadopsi metafora yang \textit{familiar} seperti ikon keranjang untuk berbelanja, serta mempertimbangkan penggunaan \textit{natural-language interface} untuk interaksi yang lebih intuitif. 
 
-Tabel \ref{tbl:harga3} diimpor dari berkas eksternal \textit{table/tabel1.tex} menggunakan perintah \textit{input}. 
-Dengan demikian, jika tabel tersebut perlu diubah, cukup mengubah pada berkas eksternal tersebut tanpa perlu mengubah pada berkas utama ini.
+\section{\textit{Usability Testing}}
+\textit{Usability Testing} merupakan salah satu metode dengan pendekatan \textit{user-centered} yang memiliki tujuan untuk mengevaluasi \textit{usability} dari suatu produk. Metode ini dilakukan melalui pemantauan langsung terhadap partisipan pada saat mereka menyelesaikan \textit{task} yang diberikan oleh peneliti. Melalui proses tersebut, peneliti dapat memvalidasi ide produk, mengidentifikasi potensi \textit{usability problems}, serta memahami perilaku pengguna secara lebih mendalam \cite{Vinney2024}.
+Sebelum membahas proses secara lebih spesifik, \textcite{MazeND} menyampaikan bahwa \textit{Usability Testing} dapat dikategorikan ke dalam beberapa tipe penelitian berikut.
+\begin{enumerate}
+\item   \textit{Qualitative or Quantitative} \\
+Data yang dikumpulkan selama \textit{Usability Testing} umumnya terbagi menjadi dua kategori utama, yaitu data kuantitatif dan data kualitatif. Data kuantitatif mencakup metrik numerik yang dapat diukur, seperti waktu penyelesaian suatu task, tingkat kesalahan, dan skor kepuasan pengguna. Sementara itu, data kualitatif bersifat deskriptif dan biasanya digunakan untuk menjelaskan alasan di balik temuan data kuantitatif. \\
 
-\input table/tabel1.tex
+\item   \textit{Moderated or Unmoderated} \\
+Pada \textit{Moderated Usability Testing}, peneliti memberikan panduan tentang \textit{task} yang harus dilakukan oleh partisipan, melakukan observasi langsung terhadap interaksi pengguna, serta mengajukan pertanyaan lanjutan secara \textit{real-time}. Sebaliknya, \textit{Unmoderated Usability Testing} memungkinkan pengguna untuk menyelesaikan \textit{task} secara mandiri tanpa interaksi atau panduan langsung dari peneliti. \\
 
+\item   \textit{Remote or In-Person} \\
+\textit{Remote Usability Testing} dilakukan secara virtual melalui \textit{platform} konferensi video atau perangkat lunak khusus untuk \textit{Usability Testing}. Metode ini menawarkan keunggulan dari segi aksesibilitas serta efisiensi biaya. Sementara itu, \textit{In-Person Usability Testing} dilaksanakan secara langsung di lingkungan yang terkontrol, seperti laboratorium pengujian atau tempat kerja partisipan. Meskipun lebih memakan waktu dan biaya, metode ini memberikan kesempatan kepada peneliti untuk memahami perilaku pengguna pada saat uji coba berlangsung. \\
+\end{enumerate}
 
-% -- Example of long table --
-\subsubsection{Tabel yang Sangat Panjang}
-Jika tabel terlalu panjang sehingga tidak muat dalam satu halaman, gunakan paket 
-\textit{longtable} untuk membuat tabel yang dapat terpotong ke halaman berikutnya, 
-seperti pada Tabel \ref{tbl:longtable1}.
+Setelah memahami berbagai kategori dalam \textit{Usability Testing}, Gambar II.6 menjelaskan metode \textit{Usability Testing} yang paling umum digunakan dalam praktik. Metode-metode ini dipetakan berdasarkan dua metrik utama, yaitu tingkat pendampingan penguji (\textit{Moderated-Unmoderated}) dan lokasi pelaksanaannya (\textit{In-person-Remote}). 
 
-\begin{longtable}{@{\extracolsep{\fill}} l c r r}
-\caption{Comprehensive Data Table Example}\label{tbl:longtable1} \\
-\midrule
-\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
-\midrule
-\endfirsthead
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/metode_usability.png}
+	\caption{Metode \textit{Usability Testing}}
+	\label{gambar:metodeusability}
+\end{figure}
 
-\caption[]{Comprehensive Data Table Example (lanjutan)} \\
-\midrule
-\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
-\midrule
-\endhead
+Menurut \textcite{Vinney2024}, \textit{Usability Testing} dilaksanakan melalui enam tahapan utama, yaitu: 
+\begin{enumerate}
+\item   Menentukan tujuan penelitian dan indikator keberhasilan.
+\item   Menyusun skenario dan \textit{task} pengujian yang akan diberikan ke partisipan.
+\item   Merekrut partisipan yang sesuai dengan target pengguna.
+\item   Melaksanakan sesi \textit{usability testing} secara langsung atau jarak jauh.
+\item   Menganalisis hasil pengujian untuk mengidentifikasi perilaku dan masalah.
+\item   Melaporkan hasil temuan dalam bentuk \textit{functional document}. 
+\end{enumerate}
 
-\midrule
-\multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
-%\bottomrule
-\endfoot
+\section{\textit{Usability Testing} dengan Nielsen \textit{Method}}
+\textcite{Nielsen2000} menyampaikan bahwa hasil paling optimal dari \textit{usability testing} berasal dari pengujian yang dilakukan terhadap tidak lebih dari 5 pengguna. Pernyataan ini didukung melalui formula \ref{eq:nielsen} yang mampu menunjukkan jumlah permasalahan \textit{usability} yang dapat ditemukan dalam pengujian dengan melibatkan sejumlah n \textit{users}. 
 
-\midrule
-\endlastfoot
-
-% === Table Data ===
-1 & Alice Smith & 89 & 5 \\
-2 & Bob Johnson & 93 & 3 \\
-3 & Carol Davis & 95 & 2 \\
-4 & Daniel Wilson & 88 & 6 \\
-5 & Eve Thompson & 97 & 1 \\
-6 & Frank Brown & 85 & 7 \\
-7 & Grace Lee & 91 & 4 \\
-8 & Henry Miller & 80 & 9 \\
-9 & Irene Garcia & 83 & 8 \\
-10 & Jack Robinson & 78 & 10 \\
-% Repeat with more rows to make it long
-11 & Kevin Harris & 76 & 11 \\
-12 & Laura Martin & 75 & 12 \\
-13 & Michael Clark & 74 & 13 \\
-14 & Natalie Lewis & 73 & 14 \\
-15 & Olivia Walker & 72 & 15 \\
-16 & Peter Hall & 71 & 16 \\
-17 & Quinn Allen & 70 & 17 \\
-18 & Rachel Young & 69 & 18 \\
-19 & Samuel King & 68 & 19 \\
-20 & Tina Wright & 67 & 20 \\
-21 & Uma Scott & 66 & 21 \\
-22 & Victor Green & 65 & 22 \\
-23 & Wendy Adams & 64 & 23 \\
-24 & Xavier Nelson & 63 & 24 \\
-25 & Yolanda Carter & 62 & 25 \\
-26 & Zachary Perez & 61 & 26 \\
-27 & Amelia Baker & 60 & 27 \\
-28 & Benjamin Rivera & 59 & 28 \\
-29 & Charlotte Rogers & 58 & 29 \\
-30 & David Murphy & 57 & 30 \\
-31 & Ethan Cooper & 56 & 31 \\
-32 & Fiona Reed & 55 & 32 \\
-33 & George Bailey & 54 & 33 \\
-34 & Hannah Cox & 53 & 34 \\
-35 & Isaac Howard & 52 & 35 \\
-36 & Julia Ward & 51 & 36 \\
-37 & Kyle Flores & 50 & 37 \\
-38 & Lily Bell & 49 & 38 \\
-39 & Mason Sanders & 48 & 39 \\
-40 & Nora Patterson & 47 & 40 \\
-41 & Owen Ramirez & 46 & 41 \\
-42 & Penelope Torres & 45 & 42 \\
-43 & Quentin Foster & 44 & 43 \\
-44 & Rebecca Gonzales & 43 & 44 \\
-45 & Sebastian Bryant & 42 & 45 \\
-46 & Taylor Alexander & 41 & 46 \\
-47 & Ursula Russell & 40 & 47 \\
-48 & Vincent Griffin & 39 & 48 \\
-49 & William Diaz & 38 & 49 \\
-50 & Zoe Simmons & 37 & 50 \\
-% (You can easily extend this list to hundreds of rows)
-\end{longtable}
-
-\subsubsection{Beberapa Contoh Penulisan Rumus atau Persamaan Matematika Menggunakan LaTeX Termasuk Penomorannya}
-Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
-Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
 \begin{equation}
-E = mc^2
-\label{eq:contoh1}
+N(1 - (1 - L)^n)
+\label{eq:nielsen}
 \end{equation}
 
-Contoh lain penulisan rumus matematika yang lebih kompleks dapat ditulis seperti pada Persamaan \ref{eq:rumus2}.
+Pada formula tersebut, N merepresentasikan total permasalahan \textit{usability} pada desain, sedangkan L merupakan proporsi permasalahan yang ditemukan seorang pengguna ketika pengujian dilakukan. Berdasarkan hasil studi Jakob Nielsen dan Tom Landauer terhadap berbagai proyek, diperoleh bahwa nilai L yang umum adalah sebesar 31\%. Ketika kurva digambarkan dengan L = 31\%, hasil grafik akan terbentuk sebagai berikut. 
 
-\begin{align}
-f(x) &= ax^2 + bx + c \\
-f'(x) &= \frac{d}{dx}(ax^2 + bx + c) \notag \\ % tidak menampilkan nomor pada baris ini
-      &= 2ax + b \label{eq:rumus2}
-\end{align}
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1.0\textwidth]{image/rekomendasi_nielsen.jpg}
+	\caption{\textit{Optimal Sample Size for Qualitative Usability Studies}}
+	\label{gambar:grafiknielsen}
+\end{figure}
+\vspace*{1.7cm}
 
-Jika rumus terlalu panjang untuk ditulis dalam satu baris, gunakan lingkungan \textit{multline} seperti pada Persamaan \ref{eq:rumus3} di bawah ini.
-\begin{multline} 
-y = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\
-    + a_8x^8 + a_9x^9 + a_{10}x^{10} \label{eq:rumus3}
-\end{multline}
+Grafik tersebut menunjukkan bahwa semakin banyak jumlah pengguna yang terlibat dalam pengujian, maka semakin besar kemungkinan ditemukannya permasalahan yang sama secara repetitif, hingga akhirnya tidak ditemukan lagi sesuatu yang baru. Menurut Nielsen, kurva tersebut memperlihatkan dengan jelas bahwa pengujian sebaiknya dilakukan terhadap sedikitnya 15 pengguna. Namun, Ia juga menekankan bahwa anggaran akan lebih efektif apabila didistribusikan untuk beberapa sesi pengujian kecil dibandingkan digunakan sekaligus hanya untuk satu sesi pengujian besar (misalnya 3 sesi pengujian terpisah dengan masing-masing 5 pengguna). 
 
-Jika ada penurunan rumus yang terdiri dari beberapa baris, namun tidak memerlukan penomoran pada setiap baris, gunakan lingkungan \textit{align*}, misalnya:
+Metode ini perlu mendapatkan perhatian khusus apabila testing dilakukan terhadap produk yang memiliki beragam kelompok pengguna. Sebagai contoh, apabila sebuah produk ditujukan untuk anak-anak dan orang tua, maka kedua kelompok tersebut memiliki perilaku yang berbeda secara signifikan sehingga perlu dilakukan pengujian terhadap perwakilan dari masing-masing kelompok. Nielsen merekomendasikan pelaksanaan usability testing terhadap 3-4 pengguna dari setiap kelompok apabila terdapat 2 kelompok pengguna, sementara 3 pengguna dari setiap kelompok apabila terdapat lebih dari 2 kelompok pengguna. 
 
-\begin{align*} 
-S &= \sum_{i=1}^{n} i^2 \\
-  &= 1^2 + 2^2 + 3^2 + \cdots + n^2 \\
-  &= \frac{n(n + 1)(2n + 1)}{6}
-\intertext{Contoh lainnya adalah rumus untuk mencari nilai rata-rata fungsi $f(x)$ pada interval $[p, q]$:}
-\bar{f} &= \frac{1}{q - p} \int_{p}^{q} f(x) \, dx \\
-        &= \frac{1}{q - p} \int_{p}^{q} (ax^2 + bx + c) \, dx \\
-        &= \frac{1}{q - p} \left[ \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx \right]_p^q \\
-        &= \frac{a(q^3 - p^3)}{3(q - p)} + \frac{b(q^2 - p^2)}{2(q - p)} + c \label{eq:rumus4}
-\end{align*}
+Meskipun rekomendasi 5 pengguna untuk \textit{usability testing} yang dikemukakan oleh Nielsen banyak diacu, kesalahpahaman masih sering terjadi dalam penerapannya. 
+\textcite{Budiu2021} menyampaikan bahwa rekomendasi Nielsen tersebut sebenarnya berlaku untuk pengujian yang bersifat \textit{qualitatitve}, yang bertujuan untuk mengidentifikasi masalah \textit{usability}. Oleh sebab itu, rekomendasi tersebut tetap valid karena sekitar 5 pengguna sudah cukup untuk mengungkap 85\% masalah desain. Namun, berbeda halnya apabila menerapkan pengujian \textit{quantitative}, yang secara umum membutuhkan lebih dari 30 responden untuk memperoleh metrik yang mampu memprediksi perilaku seluruh populasi. Apabila hanya berlandaskan pada jumlah responden yang sedikit, maka metrik yang diperoleh akan menjadi tidak akurat.
 
+\textcite{Berry2023} mewawancarai Matthieu Dixte, seorang \textit{product researcher} di Maze, dan menemukan bahwa penentuan jumlah responden bergantung pada tujuan dari sebuah penelitian. Langkah utama yang harus dilakukan peneliti adalah menentukan apakah studi yang dilakukan termasuk ke dalam \textit{tactical study} atau \textit{strategic study}. \textit{Tactical study} berfokus pada proses perbaikan dan peningkatan produk secara cepat, sehingga umumnya hanya membutuhkan kelompok responden yang lebih kecil. Sebaliknya, \textit{strategic study} menekankan pada arah dan pengembangan produk untuk jangka panjang, sehingga membutuhkan kelompok responden yang lebih besar dan beragam untuk mendapatkan \textit{insights} yang lebih komprehensif.
+\begin{table}[H]
+  \begin{tabular}{ | p{5cm} | p{5cm} | p{3cm} |}
+    \hline
+    \textbf{\textit{Research Method}} 
+    &
+    \textbf{\textit{Tactical Study}}
+    &
+    \textbf{\textit{Strategic Study}} \\
+    \hline
 
+    \textit{User interviews}
+    &
+    3 (\textit{low-risk projects}), 5 (\textit{medium-risk projects})
+    &
+    10--20 \\
+    \hline
 
-\subsection{Algoritma, Pseudocode, atau Kode}
-Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
-Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 
+    \textit{Moderated usability test}
+    &
+    5 (\textit{uncover 80\% of friction areas})
+    &
+    6--10 \\
+    \hline
 
+    \textit{Unmoderated usability test}
+    &
+    20+
+    &
+    40 \\
+    \hline
 
-% -- Example of pseudocode and source code listing --
-% -- Gunakan minipage agar listing tidak terpotong ke halaman berikutnya --
-\begin{minipage}{\textwidth} 
-\begin{lstlisting}[frame=lines, captionpos=t, caption={Contoh pseudocode}, label={alg:contoh1}]
-ALGORITHM HelloWorld
-   PRINT "Hello, World!"
-END ALGORITHM
-\end{lstlisting}
-\end{minipage}
+    \textit{Early prototype concept validation}
+    &
+    2--5
+    &
+    5--10 \\
+    \hline
 
-\begin{minipage}{\textwidth}
-\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, captionpos=t, label={lst:contoh1}]
-def hello_world():
-    print("Hello, World!")       
-hello_world()
-\end{lstlisting}
-\end{minipage}
+    \textit{Surveys}
+    &
+    20+ (\textit{low-risk projects}), 50 (\textit{medium-risk projects})
+    &
+    100+ \\
+    \hline
 
+    \textit{Card sorting}
+    &
+    30
+    &
+    30+ \\
+    \hline
 
-\section{Beberapa Kesalahan Penulisan yang Sering Terjadi}
-\subsection{Penggunaan Kata "di mana" atau "dimana"}
-Banyak yang menuliskan kata "di mana" atau "dimana" sebagai pengganti kata "which" dalam bahasa Inggris. 
-Padahal, penggunaan kata "di mana" atau "dimana" tidak tepat dalam konteks tersebut. Demikian juga untuk kata serupa, misalnya "yang mana".
-Kata "di mana" atau "dimana" ini harus diganti dengan kata lain, seperti "dengan", "tempat", "yang", dan sebagainya tergantung kalimatnya.
-Penjelasan lengkap dapat dilihat pada \autocite{BPBI}.
+    \textit{Tree testing}
+    &
+    50
+    &
+    50+ \\
+    \hline
 
-\subsection{Penggunaan Kata "sedangkan" dan "sehingga"}
+    \textit{Focus group (A/B test)}
+    &
+    5--8
+    &
+    5--8 \\
+    \hline
 
-\begin{table}[t]
-  \begin{tabular}{|c|l|l|}
-  \hline
-  Kata & Salah & Benar \\ \hline
-  sedangkan & \begin{tabular}[c]{@{}c@{}}Sedangkan sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna,\\ sedangkan sistem baru belum siap.\end{tabular} \\ \hline
-  sehingga & \begin{tabular}[c]{@{}c@{}}Sehingga sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna sehingga\\ sistem baru belum siap.\end{tabular} \\ \hline
+    \textit{Eye-tracking (A/B test)}
+    &
+    40
+    &
+    50+ \\
+    \hline
+
   \end{tabular}
-  \caption{Contoh penggunaan kata "sedangkan" dan "sehingga"}
-  \label{tbl:sedangkan_sehingga}
+\caption{Rekomendasi Jumlah Responden untuk Setiap Metode Riset}
+\label{tbl:jumlahresponden}
 \end{table}
-
-Kata "sedangkan" dan "sehingga" adalah kata hubung atau konjungsi. 
-Konjungsi adalah kata atau ungkapan yang menghubungkan satuan bahasa 
-(kata, frasa, klausa, dan kalimat). 
-Konjungsi dapat dibagi menjadi konjungsi intrakalimat dan antarkalimat.  
-Kata "sedangkan" menghubungkan dua klausa yang bersifat kontrasif, 
-sedangkan "sehingga" menghubungkan dua klausa yang bersifat kausal. 
-Dalam ragam formal, kata hubung “sedangkan” dan “sehingga” hanya dapat digunakan 
-sebagai konjungsi intrakalimat sehingga kedua konjungsi itu \textbf{tidak dapat diletakkan pada awal kalimat}.
-Selain itu, penggunaan kata "sedangkan" harus didahului oleh koma (,), sedangkan kata "sehingga" tidak perlu didahului oleh koma (,).
-Contoh penggunaan yang benar dan salah dapat dilihat pada Tabel \ref{tbl:sedangkan_sehingga}.
-
-
-\subsection{Penggunaan Istilah yang Tidak Baku}
-Ada beberapa istilah yang sering digunakan dalam pembicaraan sehari-hari, tetapi tidak baku dalam penulisan ilmiah.
-Beberapa istilah tersebut antara lain:
-\begin{enumerate}
-  \item analisa $\rightarrow$ analisis
-  \item eksisting atau existing $\rightarrow$ yang ada atau saat ini
-  \item bisnis proses $\rightarrow$ proses bisnis
-  \item user $\rightarrow$ pengguna
-  \item system $\rightarrow$ sistem
-  \item database $\rightarrow$ basis data
-  \item aktifitas $\rightarrow$ aktivitas
-  \item efektifitas $\rightarrow$ efektivitas
-  \item sosial media $\rightarrow$ media sosial
-\end{enumerate}
-
-\subsection{Pemisah Desimal dan Ribuan}
-Tanda pemisah desimal dalam bahasa Indonesia adalah tanda koma, contoh:
-\begin{enumerate}
-  \item (Salah) Akurasi naik menjadi 50.6\% 
-  \item (Benar) Akurasi naik menjadi 50,6\% 
-\end{enumerate}
-
-\subsection{Daftar atau \textit{List}}
-Ada beberapa aturan penulisan daftar atau \textit{list} yang perlu diperhatikan, antara lain:
-\begin{enumerate}[a)]
-\item Jika memungkinkan, hindari penggunaan “bullet points” atau sejenisnya. Sebaiknya, gunakan angka (1, 2, 3, ...) atau huruf (a, b, c, …). Dengan demikian, pembaca dapat dengan mudah melihat jumlah \textit{item} atau \textit{list}. 
-\item Jika dalam daftar hanya ada satu item, tidak perlu menggunakan nomor urut.
-\item Penjelasan atau deskripsi suatu item sebaiknya menyatu dengan judul item tersebut, tidak berbeda halaman. Contoh yang salah: judul item ada di halaman 10, namun deskripsinya di halaman 11. Sebaiknya pindahkan judul tersebut ke halaman 11.
-\item Jika penjelasan atau deskripsi suatu item cukup panjang, misalnya lebih dari 1 halaman atau terdiri atas beberapa paragraf, sebaiknya setiap item tersebut dijadikan judul subbab, kecuali jika level subbab sudah mencapai level 4. 
-\end{enumerate}
-
-\subsection{Penggunaan Kata "masing-masing" dan "setiap"}
-Kata “masing-masing” digunakan di belakang kata yang diterangkan, misalnya 
-"Setiap proses menggunakan algoritma masing-masing". Kata “tiap-tiap” atau “setiap”
-ditempatkan di depan kata yang diterangkan, misalnya
-"Setiap proses menggunakan algoritma tertentu".

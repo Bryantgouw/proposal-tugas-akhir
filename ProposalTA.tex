@@ -97,6 +97,7 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage[bahasai]{datetime2}
+\usepackage{hyperref}
 
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
@@ -161,10 +162,10 @@
 % -- No Header dan No Footer ---
 \pagestyle{plain}
 
-% --- Ubah nama daftar listing ke "DAFTAR KODE" ---
+% --- Ubah nama daftar listing ke "DAFTAR FORMULA" ---
 % --- Harus diletakkan sebelum \begin{document} ---
-\renewcommand{\lstlistlistingname}{\centering\normalsize DAFTAR KODE} 
-\renewcommand{\lstlistingname}{Kode}
+\renewcommand{\lstlistlistingname}{\centering\normalsize DAFTAR FORMULA} 
+\renewcommand{\lstlistingname}{Formula}
 \lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
 %\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
 
@@ -209,7 +210,7 @@
     
     \vspace*{2cm}
     
-    {\Large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+    {\Large\bfseries Perancangan Desain Interaksi Inklusif Aplikasi AYO TOKO bagi Pengguna Dewasa Madya di Kota Bandung}\\
      \vspace{4cm}
 
     {\Large \textbf{Proposal Tugas Akhir}}\\
@@ -220,8 +221,8 @@
     
     {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Anthony Bryant Gouw}\\
+    {\large 18222033}
     }\\
 
     \vspace{2cm}
@@ -256,7 +257,7 @@
   \textbf{\large LEMBAR PENGESAHAN}\\[1cm]
   \vspace*{1.5cm}
     
-  {\large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+  {\large\bfseries Perancangan Desain Interaksi Inklusif Aplikasi AYO TOKO bagi Pengguna Dewasa Madya di Kota Bandung}\\
      \vspace{2cm}
 
   {\Large \textbf{Proposal Tugas Akhir}}\\
@@ -267,8 +268,8 @@
     
   {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Anthony Bryant Gouw}\\
+    {\large 18222033}
   }\\
     
   \vspace{0.5cm}
@@ -286,8 +287,8 @@
 % Versi 1 pembimbing (default)
 % ==========================================
 	Pembimbing  \\[3cm]
-	Dr. Ir. John Doe, M.T.   \\[0.2cm]
-	NIP. 123456789 
+	Dr. Fetty Fitriyanti Lubis, S.T., M.T.   \\[0.2cm]
+	NIP. 118110071  
 % ==========================================
 
 \end{center}
@@ -350,10 +351,10 @@
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
 
 % --- DAFTAR LISTING (ALGORITMA, PSEUDOCODE, SOURCE CODE) ---
-\newpage
+% \newpage
 
-\lstlistoflistings
-\addcontentsline{toc}{chapter}{\lstlistlistingname}
+% \lstlistoflistings
+% \addcontentsline{toc}{chapter}{\lstlistlistingname}
 
 \mainmatter
 % --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
@@ -405,8 +406,8 @@
 % ==========================================
 \appendix
 % Uncomment baris di bawah ini jika ada lampiran
-% \input{Lampiran-A.tex}
-% \input{Lampiran-B.tex}
+\input{Lampiran-A.tex}
+\input{Lampiran-B.tex}
 
 \end{document}
  
