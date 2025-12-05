@@ -9,8 +9,10 @@
 **Judul Proposal Tugas Akhir :** <br>
 Perancangan Desain Interaksi Inklusif Aplikasi AYO TOKO bagi Pengguna Dewasa Madya di Kota Bandung
 
-**Deskripsi Singkat :** <br>
-Ini deskripsi
+**Latar Belakang :** <br>
+AYO TOKO merupakan salah satu aplikasi kunci yang menjaga keberlangsungan ekosistem digital yang dibangun oleh *Sampoerna Retail Company* (SRC). Meskipun sekitar 90% Toko SRC telah mengadopsi aplikasi AYO TOKO, hanya 5 dari 10 peritel yang menggunakannya secara aktif setiap bulan. Jumlah *daily active users* dan frekuensi penggunaan aplikasi AYO TOKO mengalami penurunan. Salah satu penyebab kondisi tersebut adalah kebiasaan sebagian pemilik Toko SRC yang mayoritas merupakan individu dewasa madya dan masih mengandalkan *salesman* SRC untuk membantu melakukan pemesanan barang secara manual. 
+
+Dengan demikian, diperlukan penelitian yang lebih mendalam untuk menganalisis faktor-faktor yang berkontribusi terhadap rendahnya tingkat penggunaan aplikasi AYO TOKO. Hasil analisis ini diharapkan dapat menjadi landasan dalam merancang solusi yang berfokus pada peningkatan kualitas desain interaksi dan pengalaman pengguna aplikasi AYO TOKO yang inklusif, khususnya bagi pengguna yang mayoritas dewasa madya.
 
 ---
 ## 📚 Signed Document & Presentation Access
